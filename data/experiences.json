@@ -1,0 +1,466 @@
+[
+    {
+      "company": "LITET",
+      "role": "Technical Product & Analytics Lead",
+      "dates": "2023 - Present",
+      "industry": "E-commerce / Consumer Products",
+  
+      "positioning_summary": "Built and operated AI-enabled analytics, forecasting, and operational systems supporting e-commerce growth, inventory optimization, product experimentation, and multi-channel marketplace operations.",
+  
+      "core_ownership": [
+        "AI workflow development",
+        "Inventory forecasting",
+        "PPC analytics",
+        "Product experimentation",
+        "Operational systems",
+        "KPI dashboards",
+        "PO planning",
+        "Inventory management",
+        "Growth strategy",
+        "Marketplace operations"
+      ],
+  
+      "technical_domains": [
+        "E-commerce analytics",
+        "Forecasting systems",
+        "AI automation",
+        "Inventory optimization",
+        "Business intelligence",
+        "Marketplace operations"
+      ],
+  
+      "customer_problems_solved": [
+        "Inventory visibility issues",
+        "Manual reporting workflows",
+        "PPC optimization inefficiencies",
+        "Bundle forecasting complexity",
+        "Operational workflow fragmentation",
+        "Product-market fit validation"
+      ],
+  
+      "cross_functional_teams": [
+        "Warehouse operations",
+        "Manufacturing vendors",
+        "Distributors",
+        "Marketplace operations"
+      ],
+  
+      "tools": [
+        "Python",
+        "OpenAI API",
+        "Power BI",
+        "Streamlit",
+        "SQLite",
+        "Amazon Seller Central",
+        "Helium 10",
+        "Hugging Face Spaces"
+      ],
+  
+      "metrics": {
+        "revenue_growth": "400% YoY",
+        "roas_improvement": "1.2 to 4.0",
+        "inventory_rotation": "1x to 4x",
+        "manual_time_reduction": "80%",
+        "review_growth": "40 to 85",
+        "3_pack_revenue_share": "75%",
+        "6_pack_revenue_share": "15%"
+      },
+  
+      "strongest_themes": [
+        "AI automation",
+        "Analytics systems",
+        "Forecasting",
+        "Operational tooling",
+        "Growth optimization",
+        "Product experimentation",
+        "Technical systems"
+      ],
+  
+      "resume_bullets": [
+        "Built AI-powered analytics and reporting agents using OpenAI APIs to automate sales reporting, PPC optimization, and operational KPI monitoring.",
+        "Scaled revenue by 400% YoY through analytics-driven pricing, bundle optimization, and marketplace growth initiatives.",
+        "Built forecasting and replenishment systems integrating Amazon FBA, AWD, local warehouse, and bundled SKU conversion logic.",
+        "Developed and deployed a custom inventory management platform supporting warehouse operations, consignments, FBA workflows, and inventory visibility."
+      ]
+    },
+  
+    {
+      "company": "Emerson Electric",
+      "role": "Product Manager — Analytics & API Platforms",
+      "dates": "December 2016 - February 2022",
+      "industry": "Enterprise IoT / Transportation Analytics",
+  
+      "positioning_summary": "Led analytics and API product initiatives supporting enterprise IoT telemetry analytics platforms for transportation and food logistics customers.",
+  
+      "core_ownership": [
+        "Roadmap ownership",
+        "API product management",
+        "Customer analytics",
+        "Telemetry analytics",
+        "Enterprise integrations",
+        "ETL workflows",
+        "KPI frameworks",
+        "Customer discovery"
+      ],
+  
+      "technical_domains": [
+        "IoT telemetry analytics",
+        "REST APIs",
+        "Enterprise analytics",
+        "ETL pipelines",
+        "Transportation analytics",
+        "Customer dashboards"
+      ],
+  
+      "customer_problems_solved": [
+        "Limited visibility into route performance",
+        "Carrier efficiency analysis",
+        "Temperature monitoring",
+        "Enterprise integration complexity",
+        "Manual reporting workflows",
+        "Telemetry data normalization"
+      ],
+  
+      "cross_functional_teams": [
+        "Engineering",
+        "Enterprise customers",
+        "Executives",
+        "Data teams",
+        "Pre-sales",
+        "Post-sales"
+      ],
+  
+      "tools": [
+        "Python",
+        "SQL",
+        "Azure",
+        "Snowflake",
+        "REST APIs",
+        "Power BI"
+      ],
+  
+      "metrics": {
+        "new_revenue": "$200K+",
+        "customer_churn_reduction": "15%",
+        "api_adoption_growth": "35%",
+        "data_delivery_improvement": "80%"
+      },
+  
+      "strongest_themes": [
+        "Technical product management",
+        "IoT analytics",
+        "API platforms",
+        "Customer analytics",
+        "Enterprise integrations",
+        "Roadmap strategy"
+      ],
+  
+      "resume_bullets": [
+        "Generated $200K+ in revenue through enterprise analytics and API solutions.",
+        "Increased API adoption by 35% through improved enterprise integration workflows and onboarding experiences.",
+        "Built customer-facing IoT telemetry analytics dashboards supporting transportation and food logistics customers.",
+        "Improved data delivery performance by 80% through Snowflake-based infrastructure and ETL optimization initiatives."
+      ]
+    },
+  
+    {
+      "company": "Chamberlain Group",
+      "role": "Software Product Manager",
+      "dates": "June 2022 - October 2023",
+      "industry": "Enterprise IoT / Smart Platforms",
+  
+      "positioning_summary": "Owned roadmap and analytics initiatives for the MyQ Community platform, supporting IoT integrations, KPI reporting, and Agile software delivery.",
+  
+      "core_ownership": [
+        "Roadmap management",
+        "Agile delivery",
+        "KPI dashboards",
+        "Backlog prioritization",
+        "IoT integrations",
+        "Product analytics",
+        "Executive reporting",
+        "Cross-functional coordination"
+      ],
+  
+      "technical_domains": [
+        "IoT platforms",
+        "Software product management",
+        "Product analytics",
+        "Executive dashboards",
+        "Agile delivery"
+      ],
+  
+      "customer_problems_solved": [
+        "Limited onboarding visibility",
+        "Feature prioritization complexity",
+        "Bug backlog management",
+        "Cross-functional delivery coordination",
+        "Platform engagement tracking"
+      ],
+  
+      "cross_functional_teams": [
+        "Frontend engineering",
+        "Backend engineering",
+        "Firmware teams",
+        "Hardware teams",
+        "UX",
+        "Executives",
+        "Databricks teams"
+      ],
+  
+      "tools": [
+        "Jira",
+        "Confluence",
+        "Power BI",
+        "Databricks",
+        "SQL",
+        "Python"
+      ],
+  
+      "metrics": {
+        "onboarding_improvement": "15%",
+        "communities_supported": "100+",
+        "active_users": "600+",
+        "sprint_cycle": "2 weeks"
+      },
+  
+      "strongest_themes": [
+        "Enterprise software PM",
+        "Agile delivery",
+        "IoT platform management",
+        "KPI analytics",
+        "Executive reporting",
+        "Cross-functional leadership"
+      ],
+  
+      "resume_bullets": [
+        "Owned roadmap and feature prioritization for the MyQ Community platform across frontend, backend, and QE teams.",
+        "Built KPI dashboards and executive reporting systems tracking onboarding, engagement, and IoT platform adoption.",
+        "Improved onboarding efficiency by 15% through iterative Agile product releases and UI enhancements.",
+        "Coordinated software, firmware, hardware, and UX teams supporting IoT platform expansion initiatives."
+      ]
+    },
+  
+    {
+      "company": "Lugo Hermanos",
+      "role": "Branch Manager & Product Manager (Linear Motion)",
+      "dates": "January 2011 - January 2014",
+      "industry": "Industrial Automation / Motion Systems",
+  
+      "positioning_summary": "Launched and managed a new industrial branch while leading product strategy, forecasting, inventory planning, and technical support for THK and Thomson linear motion product lines.",
+  
+      "core_ownership": [
+        "Branch operations",
+        "Product line management",
+        "Forecasting",
+        "Inventory planning",
+        "Vendor coordination",
+        "Technical support",
+        "Pricing strategy",
+        "Business development"
+      ],
+  
+      "technical_domains": [
+        "Linear motion systems",
+        "Industrial automation",
+        "Ball screws",
+        "Linear guides",
+        "Industrial motion products"
+      ],
+  
+      "customer_problems_solved": [
+        "Inventory stockouts",
+        "Limited product availability",
+        "Technical application support",
+        "Industrial automation implementation",
+        "Supplier coordination"
+      ],
+  
+      "cross_functional_teams": [
+        "Sales",
+        "Warehouse operations",
+        "Administration",
+        "THK engineering teams",
+        "Thomson engineering teams",
+        "Vendors"
+      ],
+  
+      "tools": [
+        "ERP",
+        "Forecasting",
+        "Inventory Planning"
+      ],
+  
+      "metrics": {
+        "branch_profitability": "<12 months",
+        "revenue_growth": "15%",
+        "sales_growth": "40% YoY",
+        "stockout_reduction": "35%",
+        "team_size": "12",
+        "sku_count": "1000+"
+      },
+  
+      "strongest_themes": [
+        "Industrial product leadership",
+        "Operational leadership",
+        "Forecasting",
+        "Inventory planning",
+        "Vendor management",
+        "Industrial automation"
+      ],
+  
+      "resume_bullets": [
+        "Opened and managed a new industrial branch, achieving profitability within 12 months and exceeding revenue targets by 15%.",
+        "Secured exclusive THK distribution rights for Colombia through strategic negotiations and technical enablement initiatives.",
+        "Managed THK and Thomson product lines including pricing, forecasting, inventory coordination, and technical support.",
+        "Reduced inventory stockouts by 35% through forecasting and supplier optimization initiatives."
+      ]
+    },
+  
+    {
+      "company": "Regal Rexnord",
+      "role": "Account Executive — Data-Driven Sales",
+      "dates": "January 2014 - December 2016",
+      "industry": "Industrial Manufacturing",
+  
+      "positioning_summary": "Managed industrial OEM, distributor, and manufacturing customer accounts across bearings, power transmission, and conveyor component product lines supporting operational reliability and maintenance planning.",
+  
+      "core_ownership": [
+        "Strategic account management",
+        "Forecasting coordination",
+        "Customer enablement",
+        "Technical consulting",
+        "Territory management",
+        "Maintenance planning"
+      ],
+  
+      "technical_domains": [
+        "Bearings",
+        "Power transmission",
+        "Conveyor components",
+        "Industrial applications",
+        "Maintenance planning"
+      ],
+  
+      "customer_problems_solved": [
+        "Maintenance planning",
+        "Replacement lead times",
+        "Product application mismatches",
+        "Operational downtime risk",
+        "Product adoption"
+      ],
+  
+      "cross_functional_teams": [
+        "Manufacturing",
+        "Supply chain",
+        "Engineering",
+        "Inside sales",
+        "Distributors"
+      ],
+  
+      "tools": [
+        "Salesforce",
+        "Excel Forecasting"
+      ],
+  
+      "metrics": {
+        "territory_size": "$8M",
+        "sales_growth": "5-10%",
+        "customer_training": "30+ monthly",
+        "new_oem_accounts": "5"
+      },
+  
+      "strongest_themes": [
+        "Industrial operations",
+        "Forecasting",
+        "Customer enablement",
+        "Technical consulting",
+        "Maintenance coordination"
+      ],
+  
+      "resume_bullets": [
+        "Managed an $8M industrial territory supporting OEMs, distributors, and manufacturing customers.",
+        "Exceeded annual sales targets by 5–10% through consultative customer engagement and technical solution-oriented selling.",
+        "Forecasted customer demand and coordinated product availability aligned with maintenance schedules and operational requirements.",
+        "Delivered technical training programs for industrial customers and distributors focused on installation, lubrication, and operational efficiency."
+      ]
+    },
+    {
+      "company": "Independent AI & Product Consulting",
+      "role": "AI Product Consultant",
+      "dates": "2026 - Present",
+      "industry": "AI / Industrial Automation / Workflow Automation",
+    
+      "positioning_summary": "Design and build AI-powered workflow tools for industrial businesses, including RAG knowledge assistants, technical product matching workflows, and AI evaluation frameworks.",
+    
+      "core_ownership": [
+        "AI product strategy",
+        "RAG system design",
+        "AI evaluation frameworks",
+        "Workflow automation",
+        "Technical knowledge systems",
+        "Human-in-the-loop workflows",
+        "Product requirements",
+        "Prototype development"
+      ],
+    
+      "technical_domains": [
+        "Retrieval-augmented generation",
+        "LLM applications",
+        "Embeddings",
+        "Vector search",
+        "AI evaluation",
+        "Industrial automation",
+        "Technical documentation"
+      ],
+    
+      "customer_problems_solved": [
+        "Manual catalog search",
+        "Technical product lookup",
+        "Competitor-to-THK interchange analysis",
+        "Dependency on expert product knowledge",
+        "Inconsistent technical recommendations"
+      ],
+    
+      "cross_functional_teams": [
+        "Sales teams",
+        "Product managers",
+        "Industrial customers",
+        "Technical support",
+        "Vendor engineering teams"
+      ],
+    
+      "tools": [
+        "Python",
+        "OpenAI API",
+        "RAG",
+        "Embeddings",
+        "Vector Database",
+        "Streamlit",
+        "SQLite"
+      ],
+    
+      "metrics": {
+        "target_time_reduction": "20 minutes to 5 minutes",
+        "target_independent_completion": "90%",
+        "target_hallucination_rate": "<5%"
+      },
+    
+      "strongest_themes": [
+        "AI product management",
+        "RAG systems",
+        "AI evaluation",
+        "Workflow automation",
+        "Technical product matching",
+        "Enterprise AI"
+      ],
+    
+      "resume_bullets": [
+        "Built a RAG-based technical knowledge assistant for industrial motion products using THK, Thomson, RFQ, and internal product documentation.",
+        "Designed an AI evaluation framework measuring retrieval accuracy, citation accuracy, answer correctness, hallucination risk, and human approval.",
+        "Developed an AI-assisted product interchange workflow to reduce competitor-to-THK matching time from 20 minutes to a target of 5 minutes.",
+        "Created reusable technical knowledge infrastructure combining document retrieval, structured outputs, and human-in-the-loop validation."
+      ]
+    }
+
+  ]

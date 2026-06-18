@@ -1,0 +1,192 @@
+{
+    "technical_pm": {
+      "priority_experiences": [
+        "Emerson Electric",
+        "Chamberlain Group",
+        "LITET"
+      ],
+  
+      "priority_categories": [
+        "AI Workflows",
+        "APIs",
+        "Analytics",
+        "IoT",
+        "Technical Systems"
+      ],
+  
+      "core_keywords": [
+        "APIs",
+        "Analytics",
+        "Technical Product Management",
+        "Automation",
+        "IoT",
+        "Data Pipelines",
+        "Cross-Functional Leadership",
+        "Agile"
+      ],
+  
+      "preferred_skills": [
+        "Python",
+        "SQL",
+        "REST APIs",
+        "Power BI",
+        "OpenAI API",
+        "Databricks"
+      ]
+    },
+  
+    "data_pm": {
+      "priority_experiences": [
+        "LITET",
+        "Emerson Electric",
+        "Chamberlain Group"
+      ],
+  
+      "priority_categories": [
+        "Analytics",
+        "Forecasting",
+        "Business Intelligence",
+        "Customer Analytics"
+      ],
+  
+      "core_keywords": [
+        "Data Analytics",
+        "Business Intelligence",
+        "Forecasting",
+        "KPIs",
+        "Telemetry Analytics",
+        "Product Analytics",
+        "Operational Analytics"
+      ],
+  
+      "preferred_skills": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Snowflake",
+        "Databricks"
+      ]
+    },
+  
+    "ai_pm": {
+      "priority_experiences": [
+        "LITET",
+        "Emerson Electric"
+      ],
+  
+      "priority_categories": [
+        "AI Workflows",
+        "Automation",
+        "Technical Systems"
+      ],
+  
+      "core_keywords": [
+        "AI Workflows",
+        "Automation",
+        "LLMs",
+        "OpenAI APIs",
+        "Decision Support Systems",
+        "Operational Automation"
+      ],
+  
+      "preferred_skills": [
+        "Python",
+        "OpenAI API",
+        "Streamlit",
+        "Automation Workflows"
+      ]
+    },
+  
+    "platform_pm": {
+      "priority_experiences": [
+        "Emerson Electric",
+        "Chamberlain Group"
+      ],
+  
+      "priority_categories": [
+        "APIs",
+        "IoT",
+        "Technical Systems",
+        "Roadmap Management"
+      ],
+  
+      "core_keywords": [
+        "Platform Product Management",
+        "APIs",
+        "Enterprise Integrations",
+        "Roadmaps",
+        "IoT Platforms",
+        "Scalability"
+      ],
+  
+      "preferred_skills": [
+        "REST APIs",
+        "SQL",
+        "Azure",
+        "Databricks",
+        "Jira"
+      ]
+    },
+  
+    "industrial_pm": {
+      "priority_experiences": [
+        "Lugo Hermanos",
+        "Regal Rexnord",
+        "Emerson Electric"
+      ],
+  
+      "priority_categories": [
+        "Industrial Applications",
+        "Forecasting",
+        "Operational Leadership",
+        "Technical Enablement"
+      ],
+  
+      "core_keywords": [
+        "Industrial Automation",
+        "Manufacturing",
+        "Maintenance Planning",
+        "Operational Reliability",
+        "Industrial Systems",
+        "Supply Chain"
+      ],
+  
+      "preferred_skills": [
+        "Forecasting",
+        "Inventory Planning",
+        "Vendor Coordination",
+        "Technical Training"
+      ]
+    },
+  
+    "operations_pm": {
+      "priority_experiences": [
+        "LITET",
+        "Lugo Hermanos",
+        "Regal Rexnord"
+      ],
+  
+      "priority_categories": [
+        "Forecasting",
+        "Inventory Management",
+        "Operational Systems",
+        "Supply Chain Operations"
+      ],
+  
+      "core_keywords": [
+        "Operations",
+        "Inventory Optimization",
+        "Forecasting",
+        "Supply Chain",
+        "Warehouse Operations",
+        "Operational Efficiency"
+      ],
+  
+      "preferred_skills": [
+        "Forecasting",
+        "Inventory Management",
+        "PO Planning",
+        "Supply Chain Analytics"
+      ]
+    }
+  }

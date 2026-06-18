@@ -1,0 +1,126 @@
+Rewrite the achievement below into one concise, recruiter-quality resume bullet.
+
+This is NOT a paraphrasing task.
+
+Your job is to reinterpret the achievement through the resume strategy and target role.
+
+Write like a top-tier executive resume writer, not a job description.
+
+The goal is to tell a compelling accomplishment story, not simply describe work performed.
+
+Preferred writing style:
+
+Write the bullet the way an elite resume writer would.
+
+Different achievements may require different structures.
+
+Examples of acceptable structures:
+
+- Action → Outcome
+- Action → Business Impact
+- Problem → Action → Outcome
+- Customer Need → Solution → Outcome
+- Platform Decision → Scalability Outcome
+- Product Strategy → Adoption Outcome
+
+Do not force every bullet into the same structure.
+
+The goal is to create a compelling accomplishment story while remaining completely faithful to the achievement evidence.
+
+Natural language rule:
+
+Resume bullets should read as if written by an experienced human resume writer.
+
+Vary sentence openings, rhythm, and structure.
+
+Avoid formulaic patterns repeated across bullets.
+
+Example:
+
+Translated recurring customer requirements into reusable platform capabilities, reducing custom development requests to less than 1% while meeting the needs of 80% of enterprise customers.
+
+Avoid:
+
+Owned platform roadmap and improved scalability.
+
+Rules:
+
+- Use the achievement as the ONLY factual source.
+- Do not invent facts, metrics, tools, companies, industries, customer types, technical environments, operational contexts, or scope.
+- Preserve all verified metrics exactly as provided.
+- Do not simply restate the original achievement.
+- First determine which role dimension this achievement best supports.
+- Emphasize that dimension in the bullet.
+- If the achievement can support multiple angles, choose the angle most relevant to the target role.
+- Use the resume strategy to decide what matters most.
+- Use keywords_to_include only when they are factually supported by the achievement.
+- Avoid keywords_to_avoid_overclaiming unless directly supported.
+- Do not let analytics, dashboards, forecasting, automation, operational visibility, or cross-functional leadership dominate every bullet unless the strategy specifically requires it.
+- Prefer transferable Product Manager positioning over invented domain expertise.
+- Only reference industries, logistics environments, fulfillment systems, AI workflows, healthcare workflows, personalization systems, IoT environments, firmware constraints, or operational contexts if explicitly supported by the achievement evidence.
+- Some bullets should emphasize:
+  - customer impact
+  - experimentation
+  - adoption
+  - product strategy
+  - platform ownership
+  - execution
+  - technical complexity
+  - scale
+  - business outcomes
+  - user experience
+  - operational improvement
+  depending on the role strategy.
+- Prefer concrete nouns and actions over abstract PM terminology.
+- Avoid repetitive verbs across bullets such as:
+  Led, Developed, Improved, Enhanced, Enabled.
+- Use the verb that best fits the achievement. Do not force strong PM verbs when a more natural verb creates a better bullet.
+- Vary sentence rhythm and structure across bullets.
+- Keep wording concise and human.
+- Avoid sounding like generated marketing copy.
+- Prioritize clarity over density.
+- Keep the bullet under 32 words when possible.
+- Output ONLY the final bullet.
+- Most bullets should start with a strong action verb, but natural sentence openings are allowed when they improve readability and impact.
+
+Evidence maturity rules:
+
+Achievement may contain an "evidence_maturity" field.
+
+Possible values:
+
+- production
+  = completed and producing business value.
+  Strong accomplishment language is acceptable.
+
+- implemented
+  = built and implemented.
+  Focus on what was created and deployed.
+  Do not invent adoption, scale, or business outcomes beyond the evidence.
+
+- design
+  = designed, proposed, architected, or defined.
+  Focus on product thinking, workflow design, architecture, evaluation criteria, roadmap decisions, or solution design.
+  Do not present target metrics, expected outcomes, success metrics, or planned impact as achieved results.
+
+If evidence_maturity is missing:
+assume completed work and use normal accomplishment-oriented resume language.
+
+Success metrics rule:
+
+If success_metrics exists:
+- treat them as design goals or intended outcomes.
+- never rewrite them as achieved results.
+- they may be referenced as design objectives when relevant.
+
+Target role:
+{target_role}
+
+Resume strategy:
+{resume_strategy}
+
+Job keywords:
+{job_keywords}
+
+Achievement:
+{achievement}

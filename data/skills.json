@@ -1,0 +1,111 @@
+{
+    "product_management": [
+      "Product Roadmapping",
+      "Backlog Prioritization",
+      "Agile",
+      "Scrum",
+      "RICE Prioritization",
+      "Stakeholder Management",
+      "Product Strategy",
+      "MVP Definition",
+      "Cross-Functional Leadership",
+      "Customer Discovery",
+      "Feature Prioritization",
+      "KPI Development",
+      "Product Analytics",
+      "Executive Reporting"
+    ],
+  
+    "analytics": [
+      "Data Analysis",
+      "Business Intelligence",
+      "Forecasting",
+      "Inventory Forecasting",
+      "Demand Planning",
+      "KPI Dashboards",
+      "PPC Analytics",
+      "Profitability Analysis",
+      "Trend Analysis",
+      "Operational Analytics",
+      "Telemetry Analytics",
+      "Customer Analytics",
+      "ROAS Analysis",
+      "TACOS Optimization"
+    ],
+  
+    "technical": [
+      "Python",
+      "SQL",
+      "REST APIs",
+      "ETL Pipelines",
+      "SQLite",
+      "Snowflake",
+      "Azure",
+      "Databricks",
+      "Streamlit",
+      "OpenAI APIs",
+      "Power BI",
+      "Database Design",
+      "Automation Workflows",
+      "Data Pipelines"
+    ],
+  
+    "ai_automation": [
+      "AI Workflows",
+      "LLM Integrations",
+      "OpenAI API",
+      "Automation Systems",
+      "AI Reporting Agents",
+      "Workflow Automation",
+      "Operational Automation",
+      "Decision Support Systems"
+    ],
+  
+    "industrial_domain": [
+      "Industrial Automation",
+      "Linear Motion Systems",
+      "Bearings",
+      "Power Transmission",
+      "Conveyor Systems",
+      "Maintenance Planning",
+      "Industrial Applications",
+      "OEM Support",
+      "Reliability Optimization",
+      "Motion Systems"
+    ],
+  
+    "operations": [
+      "Inventory Management",
+      "Supply Chain Coordination",
+      "Warehouse Operations",
+      "Replenishment Planning",
+      "PO Planning",
+      "Vendor Coordination",
+      "Operational Planning",
+      "Multi-Warehouse Operations",
+      "Distributor Management"
+    ],
+  
+    "ecommerce": [
+      "Amazon FBA",
+      "Amazon AWD",
+      "Shopify",
+      "Marketplace Operations",
+      "Listing Optimization",
+      "Helium 10",
+      "Bundle Optimization",
+      "Conversion Optimization",
+      "Product Experimentation"
+    ],
+  
+    "leadership": [
+      "Team Leadership",
+      "Branch Operations",
+      "Executive Communication",
+      "Vendor Negotiation",
+      "Strategic Partnerships",
+      "Customer Training",
+      "Technical Enablement",
+      "Territory Management"
+    ]
+  }

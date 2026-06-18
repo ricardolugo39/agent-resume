@@ -1,0 +1,2104 @@
+[
+  {
+    "id": "ACH_001",
+    "company": "LITET",
+    "category": "AI Workflows",
+    "title": "Built AI-powered analytics and reporting agents",
+    "description": "Developed AI-powered analytics agents using OpenAI APIs to automate sales reporting, PPC bid analysis, keyword optimization, and operational performance monitoring across Amazon and Shopify channels.",
+    "business_problem": "Manual reporting and PPC optimization workflows were time-intensive and difficult to scale across multiple marketplaces and inventory environments.",
+    "solution": "Built Python-based AI workflows integrating sales, advertising, and inventory datasets into automated reporting and decision-support systems.",
+    "business_impact": [
+      "Reduced manual reporting and analysis effort by approximately 80%",
+      "Improved speed and consistency of PPC optimization decisions",
+      "Enabled daily operational KPI monitoring"
+    ],
+    "metrics": {
+      "manual_time_reduction": "80%",
+      "reporting_frequency": "Daily"
+    },
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "Streamlit",
+      "SQLite",
+      "Power BI"
+    ],
+    "keywords": [
+      "AI workflows",
+      "automation",
+      "analytics",
+      "OpenAI",
+      "business intelligence",
+      "decision support",
+      "reporting automation"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "AI PM",
+      "Data PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "automation",
+    "evidence_type": "ai_workflows",
+    "secondary_evidence_types": [
+      "automation",
+      "decision_support"
+    ]
+  },
+  {
+    "id": "ACH_002",
+    "company": "LITET",
+    "category": "Product Experimentation",
+    "title": "Drove bundle strategy using sales and profitability analytics",
+    "description": "Used Python-based demand and profitability analysis to launch new bundled product configurations including 3-packs and 6-packs.",
+    "business_problem": "Single-unit product mix limited revenue growth and average order value opportunities.",
+    "solution": "Analyzed customer purchasing patterns, profitability metrics, and conversion behavior to identify opportunities for bundled offerings.",
+    "business_impact": [
+      "3-pack products grew to 75% of total revenue",
+      "6-pack products contributed 15% of total revenue",
+      "Improved product mix and operational efficiency"
+    ],
+    "metrics": {
+      "3_pack_revenue_share": "75%",
+      "6_pack_revenue_share": "15%"
+    },
+    "tools": [
+      "Python",
+      "Power BI",
+      "Amazon Seller Central"
+    ],
+    "keywords": [
+      "product experimentation",
+      "product strategy",
+      "assortment optimization",
+      "conversion optimization",
+      "profitability analysis",
+      "bundling",
+      "AOV"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Growth PM",
+      "Data PM",
+      "Consumer Product PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "experimentation",
+    "evidence_type": "experimentation",
+    "secondary_evidence_types": [
+      "conversion",
+      "product_strategy"
+    ]
+  },
+  {
+    "id": "ACH_003",
+    "company": "LITET",
+    "category": "Forecasting",
+    "title": "Built multi-warehouse inventory forecasting platform",
+    "description": "Developed forecasting and replenishment systems integrating Amazon FBA, AWD, local warehouse, and bundled SKU conversion logic.",
+    "business_problem": "Bundle-based sales and multi-warehouse inventory created inaccurate purchasing and replenishment decisions.",
+    "solution": "Built Python forecasting logic converting bundle sales into single-unit demand signals while aggregating inventory across warehouse environments.",
+    "business_impact": [
+      "Improved inventory rotation from 1x to 4x",
+      "Improved inventory visibility across multiple fulfillment environments",
+      "Enabled proactive replenishment planning"
+    ],
+    "metrics": {
+      "inventory_rotation_improvement": "1x to 4x"
+    },
+    "tools": [
+      "Python",
+      "SQLite",
+      "Streamlit",
+      "Amazon FBA",
+      "Amazon AWD"
+    ],
+    "keywords": [
+      "forecasting",
+      "inventory optimization",
+      "replenishment planning",
+      "supply chain analytics",
+      "inventory visibility"
+    ],
+    "supports_roles": [
+      "Operations PM",
+      "Data PM",
+      "Technical PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "operations",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "forecasting",
+      "scalability"
+    ]
+  },
+  {
+    "id": "ACH_004",
+    "company": "LITET",
+    "category": "Growth Analytics",
+    "title": "Scaled e-commerce revenue through analytics-driven optimization",
+    "description": "Led data-driven optimization across pricing, listings, PPC campaigns, and product strategy for Amazon and Shopify operations.",
+    "business_problem": "Initial marketplace performance and advertising efficiency limited scalable growth.",
+    "solution": "Implemented KPI-driven optimization strategies focused on TACOS, ROAS, keyword profitability, and conversion improvements.",
+    "business_impact": [
+      "Increased revenue by 400% YoY",
+      "Improved ROAS from 1.2 to 4.0",
+      "Expanded marketplace and distributor channels"
+    ],
+    "metrics": {
+      "revenue_growth": "400%",
+      "roas_improvement": "1.2 to 4.0"
+    },
+    "tools": [
+      "Amazon Seller Central",
+      "Helium 10",
+      "Power BI",
+      "Python"
+    ],
+    "keywords": [
+      "growth strategy",
+      "PPC optimization",
+      "ROAS",
+      "TACOS",
+      "conversion optimization",
+      "marketplace growth"
+    ],
+    "supports_roles": [
+      "Growth PM",
+      "Product Manager",
+      "E-commerce PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "growth",
+    "evidence_type": "business_outcomes",
+    "secondary_evidence_types": [
+      "growth",
+      "conversion"
+    ]
+  },
+  {
+    "id": "ACH_005",
+    "company": "Emerson Electric",
+    "category": "API Product Management",
+    "title": "Increased enterprise API adoption by 35%",
+    "description": "Led initiatives focused on simplifying enterprise REST API integrations and improving customer onboarding experiences for IoT telemetry analytics platforms.",
+    "business_problem": "Enterprise customers faced integration complexity and onboarding friction when integrating telemetry data into operational systems.",
+    "solution": "Prioritized customer-driven API enhancements and workflow simplification initiatives.",
+    "business_impact": [
+      "Increased API adoption by 35%",
+      "Improved customer integration experience",
+      "Expanded analytics platform usage"
+    ],
+    "metrics": {
+      "api_adoption_growth": "35%"
+    },
+    "tools": [
+      "REST APIs",
+      "SQL",
+      "Azure",
+      "Snowflake"
+    ],
+    "keywords": [
+      "APIs",
+      "REST APIs",
+      "IoT",
+      "enterprise integrations",
+      "technical PM",
+      "onboarding",
+      "platform adoption"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "API PM",
+      "IoT PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "adoption",
+    "secondary_evidence_types": [
+      "technical_delivery",
+      "platform_strategy"
+    ]
+  },
+  {
+    "id": "ACH_006",
+    "company": "Emerson Electric",
+    "category": "IoT Analytics",
+    "title": "Built IoT telemetry analytics solutions for enterprise customers",
+    "description": "Developed customer-facing analytics dashboards leveraging IoT telemetry and trip sensor data for transportation and food logistics customers.",
+    "business_problem": "Customers lacked operational visibility into route performance, temperature excursions, and carrier efficiency.",
+    "solution": "Built analytics reporting solutions and KPI frameworks using telemetry and trip data.",
+    "business_impact": [
+      "Reduced customer churn by 15%",
+      "Improved operational visibility for enterprise customers"
+    ],
+    "metrics": {
+      "customer_churn_reduction": "15%",
+      "enterprise_customers": "15+"
+    },
+    "tools": [
+      "SQL",
+      "Python",
+      "Azure",
+      "Power BI"
+    ],
+    "keywords": [
+      "IoT analytics",
+      "telemetry",
+      "KPI dashboards",
+      "customer analytics",
+      "customer retention"
+    ],
+    "supports_roles": [
+      "IoT PM",
+      "Data PM",
+      "Analytics PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "analytics",
+    "evidence_type": "customer_success",
+    "secondary_evidence_types": [
+      "analytics",
+      "customer_outcomes"
+    ]
+  },
+  {
+    "id": "ACH_007",
+    "company": "Chamberlain Group",
+    "category": "Product Ownership",
+    "title": "Owned roadmap for MyQ Community platform",
+    "description": "Managed roadmap prioritization, feature delivery, and backlog planning for customer-facing and internal MyQ Community platform features.",
+    "business_problem": "Platform growth required improved feature prioritization, sprint execution, and stakeholder visibility.",
+    "solution": "Implemented Agile backlog prioritization using RICE methodology while coordinating frontend, backend, and QE teams.",
+    "business_impact": [
+      "Improved sprint feature completion",
+      "Improved backlog prioritization efficiency"
+    ],
+    "metrics": {
+      "sprint_cycle": "2 weeks"
+    },
+    "tools": [
+      "Jira",
+      "Confluence",
+      "Power BI",
+      "SQL"
+    ],
+    "keywords": [
+      "roadmap",
+      "Agile",
+      "Scrum",
+      "backlog management",
+      "RICE prioritization",
+      "customer-facing platform"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Platform PM",
+      "Technical PM"
+    ],
+    "strength": "high",
+    "strategic_category": "product_execution",
+    "evidence_type": "roadmap_ownership",
+    "secondary_evidence_types": [
+      "product_execution",
+      "platform_strategy"
+    ]
+  },
+  {
+    "id": "ACH_008",
+    "company": "Chamberlain Group",
+    "category": "Product Analytics",
+    "title": "Built KPI dashboards and onboarding analytics systems",
+    "description": "Defined and monitored platform KPIs related to onboarding, engagement, and user activity for the MyQ Community platform.",
+    "business_problem": "Leadership lacked visibility into user onboarding and platform engagement metrics.",
+    "solution": "Built Power BI dashboards and automated reporting workflows integrating Databricks and product usage analytics.",
+    "business_impact": [
+      "Improved onboarding efficiency by 15%",
+      "Supported data-driven product decisions"
+    ],
+    "metrics": {
+      "onboarding_improvement": "15%",
+      "communities_supported": "100+",
+      "active_users": "600+"
+    },
+    "tools": [
+      "Databricks",
+      "Power BI",
+      "SQL",
+      "Python"
+    ],
+    "keywords": [
+      "KPIs",
+      "product analytics",
+      "Power BI",
+      "Databricks",
+      "user engagement",
+      "onboarding"
+    ],
+    "supports_roles": [
+      "Data PM",
+      "Product Manager",
+      "Analytics PM"
+    ],
+    "strength": "high",
+    "strategic_category": "analytics",
+    "evidence_type": "adoption",
+    "secondary_evidence_types": [
+      "product_analytics",
+      "user_engagement"
+    ]
+  },
+  {
+    "id": "ACH_009",
+    "company": "LITET",
+    "category": "Operational Systems",
+    "title": "Built internal inventory management platform",
+    "description": "Developed and deployed a custom inventory management platform using Streamlit and Hugging Face Spaces to support warehouse operations, FBA workflows, consignments, and inventory tracking.",
+    "business_problem": "Inventory operations relied on Google Sheets and Slack conversations, creating inconsistencies and fragmented operational visibility.",
+    "solution": "Built centralized inventory tooling supporting inbound and outbound inventory tracking across local warehouses, FBA, AWD, distributors, and consignments.",
+    "business_impact": [
+      "Centralized inventory operations into a single system",
+      "Improved inventory consistency and operational visibility",
+      "Eliminated fragmented inventory workflows"
+    ],
+    "metrics": {
+      "warehouse_users": "2",
+      "inventory_error_reduction": "100%"
+    },
+    "tools": [
+      "Python",
+      "Streamlit",
+      "SQLite",
+      "Hugging Face Spaces"
+    ],
+    "keywords": [
+      "inventory management",
+      "warehouse systems",
+      "operational tooling",
+      "FBA",
+      "AWD",
+      "internal tools"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "Operations PM",
+      "Supply Chain PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "operations",
+    "evidence_type": "technical_delivery",
+    "secondary_evidence_types": [
+      "operations",
+      "process_automation"
+    ]
+  },
+  {
+    "id": "ACH_010",
+    "company": "LITET",
+    "category": "Forecasting",
+    "title": "Built automated PO planning and replenishment system",
+    "description": "Developed Python-based PO planning systems automating vendor purchasing, AWD replenishment, and FBA inventory allocation decisions.",
+    "business_problem": "Multi-warehouse inventory and bundle-based sales complicated purchasing accuracy and replenishment planning.",
+    "solution": "Built forecasting and replenishment models incorporating SKU-level reorder points, vendor lead times, MOQ optimization, freight cost modeling, and bundle conversion logic.",
+    "business_impact": [
+      "Improved replenishment planning accuracy",
+      "Enabled SKU-level reorder automation"
+    ],
+    "metrics": {
+      "vendor_lead_time": "2 months",
+      "moq_levels": "300-500 units"
+    },
+    "tools": [
+      "Python",
+      "SQLite",
+      "Forecasting Models"
+    ],
+    "keywords": [
+      "forecasting",
+      "replenishment planning",
+      "MOQ optimization",
+      "inventory forecasting"
+    ],
+    "supports_roles": [
+      "Operations PM",
+      "Technical PM",
+      "Data PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "operations",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "forecasting",
+      "vendor_coordination"
+    ]
+  },
+  {
+    "id": "ACH_011",
+    "company": "LITET",
+    "category": "Business Intelligence",
+    "title": "Built KPI dashboards supporting growth and product strategy",
+    "description": "Developed operational dashboards and reporting systems used to support pricing strategy, PPC optimization, and bundle experimentation decisions.",
+    "business_problem": "Growth decisions lacked centralized visibility into advertising efficiency, bundle performance, and profitability metrics.",
+    "solution": "Built daily and weekly KPI reporting systems tracking ROAS, TACOS, product mix performance, and bundle contribution.",
+    "business_impact": [
+      "Improved visibility into product and advertising performance",
+      "Supported strategic bundle and pricing decisions",
+      "Enabled KPI-driven growth optimization"
+    ],
+    "metrics": {
+      "reporting_frequency": "Daily",
+      "3_pack_revenue_share": "75%"
+    },
+    "tools": [
+      "Power BI",
+      "Python",
+      "Amazon Seller Central"
+    ],
+    "keywords": [
+      "KPI dashboards",
+      "business intelligence",
+      "growth analytics",
+      "PPC analytics",
+      "profitability analysis"
+    ],
+    "supports_roles": [
+      "Data PM",
+      "Growth PM",
+      "Product Manager"
+    ],
+    "strength": "high",
+    "strategic_category": "analytics",
+    "evidence_type": "experimentation",
+    "secondary_evidence_types": [
+      "growth",
+      "product_analytics"
+    ]
+  },
+  {
+    "id": "ACH_012",
+    "company": "LITET",
+    "category": "Customer Discovery",
+    "title": "Led customer-driven product design and optimization process",
+    "description": "Conducted customer interviews and iterative product testing cycles to refine sock fit, materials, color selection, and minimalist product design.",
+    "business_problem": "Initial product concepts required validation to ensure alignment with cyclist preferences and pricing expectations.",
+    "solution": "Executed customer interview and iterative testing processes with manufacturing partners over a six-month development cycle.",
+    "business_impact": [
+      "Improved product-market fit",
+      "Validated product positioning and pricing strategy",
+      "Supported successful product adoption and review growth"
+    ],
+    "metrics": {
+      "customer_interviews": "20+",
+      "development_cycle": "6 months"
+    },
+    "tools": [
+      "Customer Interviews",
+      "Product Testing",
+      "Vendor Coordination"
+    ],
+    "keywords": [
+      "customer discovery",
+      "product development",
+      "user research",
+      "product-market fit",
+      "customer feedback"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Growth PM",
+      "Consumer Product PM"
+    ],
+    "strength": "high",
+    "strategic_category": "experimentation",
+    "evidence_type": "customer_discovery",
+    "secondary_evidence_types": [
+      "product_design",
+      "ux"
+    ]
+  },
+  {
+    "id": "ACH_013",
+    "company": "Emerson Electric",
+    "category": "Data Engineering",
+    "title": "Built ETL workflows for enterprise telemetry analytics",
+    "description": "Developed ETL workflows using Python and Azure-based systems to cleanse, normalize, and process enterprise IoT telemetry and customer trip data.",
+    "business_problem": "Customer-provided data fields were inconsistent and required normalization before analytics processing.",
+    "solution": "Built master table mapping and ETL logic to standardize customer naming structures and telemetry datasets.",
+    "business_impact": [
+      "Improved telemetry data quality and consistency",
+      "Supported scalable enterprise analytics reporting",
+      "Reduced manual data cleansing workflows"
+    ],
+    "tools": [
+      "Python",
+      "Azure",
+      "SQL",
+      "Snowflake"
+    ],
+    "keywords": [
+      "ETL",
+      "data pipelines",
+      "data engineering",
+      "telemetry",
+      "Azure",
+      "Snowflake"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "Data PM",
+      "Analytics PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "technical_delivery",
+    "secondary_evidence_types": [
+      "data_infrastructure",
+      "scalability"
+    ]
+  },
+  {
+    "id": "ACH_014",
+    "company": "Emerson Electric",
+    "category": "Product Strategy",
+    "title": "Defined scalable MVP strategy for telemetry analytics platform",
+    "description": "Led roadmap tradeoff decisions balancing raw telemetry data visibility versus summary-level analytics reporting for enterprise customers.",
+    "business_problem": "Enterprise customers requested highly customized telemetry reporting solutions that reduced scalability.",
+    "solution": "Prioritized summary analytics reporting covering approximately 80% of customer needs while limiting highly customized implementations.",
+    "business_impact": [
+      "Improved scalability of analytics platform",
+      "Reduced custom development overhead",
+      "Improved prioritization of high-value customer requirements"
+    ],
+    "metrics": {
+      "customer_coverage": "80%",
+      "custom_solution_approval": "1%"
+    },
+    "tools": [
+      "Roadmap Planning",
+      "Customer Interviews",
+      "REST APIs"
+    ],
+    "keywords": [
+      "MVP",
+      "product strategy",
+      "roadmap tradeoffs",
+      "scalability",
+      "enterprise analytics",
+      "customer requirements"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "Platform PM",
+      "Product Manager"
+    ],
+    "strength": "very_high",
+    "strategic_category": "product_execution",
+    "evidence_type": "platform_strategy",
+    "secondary_evidence_types": [
+      "mvp_decisions",
+      "scalability"
+    ]
+  },
+  {
+    "id": "ACH_015",
+    "company": "Chamberlain Group",
+    "category": "Agile Delivery",
+    "title": "Improved Agile sprint prioritization and release execution",
+    "description": "Managed two-week Agile sprint cycles and implemented RICE prioritization methodologies for feature delivery and bug backlog management.",
+    "business_problem": "Feature prioritization and bug backlog management required improved structure and execution visibility.",
+    "solution": "Implemented RICE-based prioritization and coordinated sprint planning across frontend, backend, and QE teams.",
+    "business_impact": [
+      "Improved bug prioritization and release stability",
+      "Improved sprint execution consistency",
+      "Increased product visibility across stakeholders"
+    ],
+    "metrics": {
+      "sprint_cycle": "2 weeks"
+    },
+    "tools": [
+      "Jira",
+      "Confluence",
+      "RICE"
+    ],
+    "keywords": [
+      "Agile",
+      "Scrum",
+      "RICE",
+      "backlog management",
+      "sprint planning",
+      "release management"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Technical PM",
+      "Platform PM"
+    ],
+    "strength": "high",
+    "strategic_category": "product_execution",
+    "evidence_type": "roadmap_ownership",
+    "secondary_evidence_types": [
+      "product_execution",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "ACH_016",
+    "company": "Chamberlain Group",
+    "category": "Executive Reporting",
+    "title": "Built executive dashboards for IoT platform performance monitoring",
+    "description": "Developed dashboards used by VP-level stakeholders to monitor MyQ Community platform adoption, onboarding, and IoT device engagement.",
+    "business_problem": "Leadership lacked centralized visibility into platform growth and user engagement metrics.",
+    "solution": "Built KPI dashboards integrating onboarding, active community, feature usage, and IoT device metrics.",
+    "business_impact": [
+      "Improved executive visibility into platform performance",
+      "Supported roadmap prioritization decisions",
+      "Enabled KPI-driven product analysis"
+    ],
+    "metrics": {
+      "communities_supported": "100+",
+      "active_users": "600+"
+    },
+    "tools": [
+      "Power BI",
+      "Databricks",
+      "SQL"
+    ],
+    "keywords": [
+      "executive dashboards",
+      "IoT analytics",
+      "KPI reporting",
+      "Power BI",
+      "product analytics",
+      "platform adoption"
+    ],
+    "supports_roles": [
+      "Data PM",
+      "Product Manager",
+      "Analytics PM"
+    ],
+    "strength": "high",
+    "strategic_category": "leadership",
+    "evidence_type": "stakeholder_influence",
+    "secondary_evidence_types": [
+      "executive_visibility",
+      "product_analytics"
+    ]
+  },
+  {
+    "id": "ACH_017",
+    "company": "Lugo Hermanos",
+    "category": "Business Development",
+    "title": "Secured exclusive THK distribution rights for Colombia",
+    "description": "Led negotiations, technical enablement, inventory commitments, and business development initiatives to secure exclusive THK distribution rights for Colombia.",
+    "business_problem": "THK required proof of technical capability, operational readiness, and long-term market development commitment.",
+    "solution": "Developed technical training programs, sales enablement initiatives, and inventory commitments supporting strategic partnership development.",
+    "business_impact": [
+      "Secured exclusive national distribution rights",
+      "Expanded company positioning within linear motion market",
+      "Established long-term strategic vendor relationship"
+    ],
+    "metrics": {
+      "exclusive_partnership_duration": "15+ years"
+    },
+    "tools": [
+      "Vendor Negotiation",
+      "Technical Training",
+      "Inventory Planning"
+    ],
+    "keywords": [
+      "business development",
+      "strategic partnerships",
+      "vendor management",
+      "industrial automation",
+      "linear motion"
+    ],
+    "supports_roles": [
+      "Industrial PM",
+      "Product Manager",
+      "Operations PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "leadership",
+    "evidence_type": "stakeholder_influence",
+    "secondary_evidence_types": [
+      "business_development",
+      "vendor_strategy"
+    ]
+  },
+  {
+    "id": "ACH_018",
+    "company": "Lugo Hermanos",
+    "category": "Operational Leadership",
+    "title": "Built and scaled new industrial branch operations",
+    "description": "Launched and managed a new industrial sales branch including sales, operations, warehouse, and administrative teams.",
+    "business_problem": "The company required regional operational expansion and stronger support for industrial motion product lines.",
+    "solution": "Built branch operations, hired and managed personnel, and coordinated commercial and operational workflows.",
+    "business_impact": [
+      "Achieved branch profitability within 12 months",
+      "Exceeded revenue targets by 15%",
+      "Supported growth of industrial product lines"
+    ],
+    "metrics": {
+      "team_size": "12",
+      "annual_revenue": "$500K"
+    },
+    "tools": [
+      "ERP",
+      "Forecasting",
+      "Inventory Planning"
+    ],
+    "keywords": [
+      "branch operations",
+      "leadership",
+      "operations management",
+      "industrial sales",
+      "team management"
+    ],
+    "supports_roles": [
+      "Operations PM",
+      "Industrial PM",
+      "Product Manager"
+    ],
+    "strength": "very_high",
+    "strategic_category": "operations",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "leadership",
+      "business_outcomes"
+    ]
+  },
+  {
+    "id": "ACH_019",
+    "company": "Regal Rexnord",
+    "category": "Forecasting",
+    "title": "Coordinated maintenance-driven forecasting and product availability planning",
+    "description": "Worked directly with distributors and industrial customers to forecast product demand based on planned maintenance schedules and seasonal operational patterns.",
+    "business_problem": "Industrial customers required reliable component availability aligned with maintenance shutdowns and operational schedules.",
+    "solution": "Conducted recurring planning discussions with distributors and customers to align inventory availability with operational maintenance timelines.",
+    "business_impact": [
+      "Improved operational readiness for strategic customers",
+      "Supported maintenance planning initiatives",
+      "Improved coordination between customers and distributors"
+    ],
+    "metrics": {
+      "territory": "Central/North Florida and South Georgia"
+    },
+    "tools": [
+      "Salesforce",
+      "Excel Forecasting"
+    ],
+    "keywords": [
+      "forecasting",
+      "maintenance planning",
+      "inventory coordination",
+      "customer planning",
+      "operational continuity"
+    ],
+    "supports_roles": [
+      "Operations PM",
+      "Industrial PM",
+      "Supply Chain PM"
+    ],
+    "strength": "high",
+    "strategic_category": "operations",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "customer_planning",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "ACH_020",
+    "company": "Regal Rexnord",
+    "category": "Customer Enablement",
+    "title": "Delivered technical product training for industrial customers and distributors",
+    "description": "Provided recurring technical training focused on installation, lubrication, product comparisons, ROI analysis, and operational efficiency benefits.",
+    "business_problem": "Customers and distributors required stronger technical understanding to improve adoption and operational outcomes.",
+    "solution": "Delivered customer-focused technical enablement programs tailored to industrial applications and operational requirements.",
+    "business_impact": [
+      "Improved customer product adoption",
+      "Strengthened distributor engagement",
+      "Supported operational efficiency initiatives"
+    ],
+    "metrics": {
+      "customer_teams_trained_monthly": "30+"
+    },
+    "tools": [
+      "Technical Training",
+      "Customer Presentations",
+      "Salesforce"
+    ],
+    "keywords": [
+      "customer enablement",
+      "technical training",
+      "industrial applications",
+      "ROI analysis",
+      "technical consulting",
+      "adoption"
+    ],
+    "supports_roles": [
+      "Industrial PM",
+      "Customer Success PM",
+      "Operations PM",
+      "Sales Engineer"
+    ],
+    "strength": "high",
+    "strategic_category": "industrial",
+    "evidence_type": "customer_enablement",
+    "secondary_evidence_types": [
+      "technical_training",
+      "adoption"
+    ]
+  },
+  {
+    "id": "ACH_021",
+    "company": "LITET",
+    "category": "Advertising Analytics",
+    "title": "Built AI-assisted PPC optimization recommendation workflows",
+    "description": "Developed AI-assisted PPC analysis systems combining Python calculations with OpenAI-generated recommendations for keyword prioritization and bid optimization.",
+    "business_problem": "PPC optimization decisions required time-intensive manual analysis across keywords, profitability, and TACOS performance.",
+    "solution": "Combined Python-based KPI calculations with AI-generated recommendations for bid optimization and keyword prioritization workflows.",
+    "business_impact": [
+      "Improved PPC decision-making consistency",
+      "Enabled scalable keyword analysis workflows",
+      "Improved operational visibility into advertising efficiency"
+    ],
+    "metrics": {
+      "target_tacos": "20%"
+    },
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "Amazon Seller Central"
+    ],
+    "keywords": [
+      "PPC optimization",
+      "AI recommendations",
+      "keyword optimization",
+      "TACOS",
+      "advertising analytics"
+    ],
+    "supports_roles": [
+      "Growth PM",
+      "AI PM",
+      "Data PM"
+    ],
+    "strength": "high",
+    "strategic_category": "automation",
+    "evidence_type": "ai_workflows",
+    "secondary_evidence_types": [
+      "advertising_optimization",
+      "decision_support"
+    ]
+  },
+  {
+    "id": "ACH_022",
+    "company": "LITET",
+    "category": "Supply Chain Operations",
+    "title": "Integrated multi-channel inventory visibility across fulfillment environments",
+    "description": "Built inventory visibility systems integrating local warehouses, Amazon FBA, AWD, distributor consignments, and direct customer fulfillment operations.",
+    "business_problem": "Inventory was fragmented across multiple fulfillment channels and lacked centralized operational visibility.",
+    "solution": "Built centralized inventory tracking workflows supporting inbound, outbound, FBA, AWD, and distributor inventory operations.",
+    "business_impact": [
+      "Improved operational inventory visibility",
+      "Improved fulfillment coordination",
+      "Reduced inventory inconsistencies across channels"
+    ],
+    "metrics": {
+      "marketplaces": "Amazon, Shopify",
+      "distributors": "5"
+    },
+    "tools": [
+      "Python",
+      "SQLite",
+      "Streamlit"
+    ],
+    "keywords": [
+      "inventory visibility",
+      "supply chain operations",
+      "multi-channel fulfillment",
+      "warehouse operations"
+    ],
+    "supports_roles": [
+      "Operations PM",
+      "Supply Chain PM",
+      "Technical PM"
+    ],
+    "strength": "high",
+    "strategic_category": "operations",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "fulfillment",
+      "inventory_visibility"
+    ]
+  },
+  {
+    "id": "ACH_023",
+    "company": "LITET",
+    "category": "Technical Systems",
+    "title": "Built custom operational tooling as alternative to ERP systems",
+    "description": "Designed and developed internal operational systems to support inventory management, forecasting, and fulfillment workflows without relying on enterprise ERP platforms.",
+    "business_problem": "The business lacked resources for a full ERP implementation while operational complexity continued growing.",
+    "solution": "Built lightweight internal operational systems using Python, Streamlit, and SQLite.",
+    "business_impact": [
+      "Enabled operational scalability without ERP investment",
+      "Improved inventory and fulfillment workflow coordination",
+      "Supported operational process standardization"
+    ],
+    "metrics": {
+      "sku_count_growth": "9 to 15"
+    },
+    "tools": [
+      "Python",
+      "SQLite",
+      "Streamlit"
+    ],
+    "keywords": [
+      "operational systems",
+      "ERP alternative",
+      "process automation",
+      "technical systems",
+      "internal platform"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "Operations PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "technical_delivery",
+    "secondary_evidence_types": [
+      "process_automation",
+      "operations"
+    ]
+  },
+  {
+    "id": "ACH_024",
+    "company": "Emerson Electric",
+    "category": "Customer Analytics",
+    "title": "Developed customer-specific trend analysis for enterprise logistics accounts",
+    "description": "Built Python-based analytics workflows analyzing seasonal transportation and route trends for strategic enterprise customers.",
+    "business_problem": "Enterprise customers required deeper operational insights into route behavior and seasonal logistics performance.",
+    "solution": "Developed customer-specific telemetry analysis workflows leveraging trip and sensor datasets.",
+    "business_impact": [
+      "Improved customer operational visibility",
+      "Supported enterprise customer retention initiatives",
+      "Expanded analytics solution adoption"
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "Telemetry Analytics"
+    ],
+    "keywords": [
+      "customer analytics",
+      "trend analysis",
+      "seasonality",
+      "transportation analytics",
+      "enterprise analytics"
+    ],
+    "supports_roles": [
+      "Data PM",
+      "Analytics PM",
+      "Technical PM"
+    ],
+    "strength": "high",
+    "strategic_category": "analytics",
+    "evidence_type": "customer_discovery",
+    "secondary_evidence_types": [
+      "analytics",
+      "customer_retention"
+    ]
+  },
+  {
+    "id": "ACH_025",
+    "company": "Emerson Electric",
+    "category": "Executive Influence",
+    "title": "Influenced analytics and API product roadmap strategy",
+    "description": "Collaborated with executives, engineering teams, and strategic customers to shape analytics and API product roadmap priorities.",
+    "business_problem": "Analytics and API products required alignment between enterprise customer requirements and scalable platform development.",
+    "solution": "Led customer-driven roadmap discussions and prioritization initiatives balancing scalability and customer value.",
+    "business_impact": [
+      "Improved alignment between customer needs and roadmap priorities",
+      "Supported growth of analytics and API platforms",
+      "Improved executive visibility into customer requirements"
+    ],
+    "tools": [
+      "Roadmap Planning",
+      "Customer Interviews",
+      "REST APIs"
+    ],
+    "keywords": [
+      "roadmap strategy",
+      "executive communication",
+      "stakeholder management",
+      "customer discovery",
+      "customer requirements"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Technical PM",
+      "Platform PM"
+    ],
+    "strength": "high",
+    "strategic_category": "leadership",
+    "evidence_type": "stakeholder_influence",
+    "secondary_evidence_types": [
+      "roadmap_ownership",
+      "customer_discovery"
+    ]
+  },
+  {
+    "id": "ACH_026",
+    "company": "Chamberlain Group",
+    "category": "Cross-Functional Leadership",
+    "title": "Coordinated software, firmware, and hardware product initiatives",
+    "description": "Worked cross-functionally with software, firmware, hardware, UX, and analytics teams supporting MyQ Community platform initiatives.",
+    "business_problem": "IoT platform growth required alignment across multiple engineering and product disciplines.",
+    "solution": "Coordinated feature planning and delivery across frontend, backend, firmware, and hardware stakeholders.",
+    "business_impact": [
+      "Improved cross-functional coordination",
+      "Supported expansion of IoT device integrations",
+      "Improved product delivery alignment"
+    ],
+    "tools": [
+      "Jira",
+      "Confluence",
+      "Databricks"
+    ],
+    "keywords": [
+      "cross-functional leadership",
+      "IoT",
+      "firmware",
+      "hardware",
+      "stakeholder management",
+      "UX"
+    ],
+    "supports_roles": [
+      "Technical PM",
+      "IoT PM",
+      "Platform PM"
+    ],
+    "strength": "high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "technical_delivery",
+    "secondary_evidence_types": [
+      "hardware_software",
+      "cross_functional_delivery"
+    ]
+  },
+  {
+    "id": "ACH_027",
+    "company": "Chamberlain Group",
+    "category": "IoT Platform Expansion",
+    "title": "Expanded support for additional IoT devices within MyQ platform",
+    "description": "Supported expansion of the MyQ Community platform by coordinating integration of additional IoT devices and firmware-connected systems.",
+    "business_problem": "Platform growth required broader support for connected IoT device ecosystems.",
+    "solution": "Coordinated product and integration initiatives supporting expanded device compatibility.",
+    "business_impact": [
+      "Improved platform scalability",
+      "Expanded IoT ecosystem support",
+      "Supported broader customer adoption"
+    ],
+    "tools": [
+      "IoT Integrations",
+      "Firmware Coordination",
+      "Jira"
+    ],
+    "keywords": [
+      "IoT platform",
+      "device integrations",
+      "firmware",
+      "platform scalability",
+      "customer adoption"
+    ],
+    "supports_roles": [
+      "IoT PM",
+      "Technical PM",
+      "Platform PM"
+    ],
+    "strength": "high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "platform_strategy",
+    "secondary_evidence_types": [
+      "technical_delivery",
+      "iot_platform"
+    ]
+  },
+  {
+    "id": "ACH_028",
+    "company": "Lugo Hermanos",
+    "category": "Product Management",
+    "title": "Managed industrial motion product portfolio with 1000+ SKUs",
+    "description": "Managed pricing, forecasting, inventory coordination, and technical support for THK and Thomson industrial motion product lines.",
+    "business_problem": "Industrial motion product lines required coordinated forecasting, supplier alignment, and technical customer support.",
+    "solution": "Managed product lifecycle activities including pricing strategy, forecasting cadence, supplier coordination, and customer support.",
+    "business_impact": [
+      "Improved product availability",
+      "Supported growth of industrial automation product lines",
+      "Improved technical support capabilities"
+    ],
+    "metrics": {
+      "sku_count": "1000+",
+      "forecasting_cycle": "2 months"
+    },
+    "tools": [
+      "ERP",
+      "Forecasting",
+      "Vendor Coordination"
+    ],
+    "keywords": [
+      "product portfolio",
+      "forecasting",
+      "industrial automation",
+      "inventory planning",
+      "technical support"
+    ],
+    "supports_roles": [
+      "Industrial PM",
+      "Product Manager",
+      "Operations PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "industrial",
+    "evidence_type": "operations",
+    "secondary_evidence_types": [
+      "product_portfolio",
+      "technical_support"
+    ]
+  },
+  {
+    "id": "ACH_029",
+    "company": "Lugo Hermanos",
+    "category": "Technical Enablement",
+    "title": "Coordinated technical support with THK and Thomson engineering teams",
+    "description": "Worked directly with THK and Thomson engineering teams to support industrial customer applications and technical implementation requirements.",
+    "business_problem": "Industrial automation customers required specialized technical guidance and application support.",
+    "solution": "Coordinated technical discussions and support workflows between vendors and customers.",
+    "business_impact": [
+      "Improved customer technical support capabilities",
+      "Strengthened vendor relationships",
+      "Supported industrial application success"
+    ],
+    "tools": [
+      "Technical Support",
+      "Vendor Coordination",
+      "Industrial Applications"
+    ],
+    "keywords": [
+      "technical enablement",
+      "vendor coordination",
+      "industrial applications",
+      "customer support"
+    ],
+    "supports_roles": [
+      "Industrial PM",
+      "Technical PM",
+      "Customer Success PM",
+      "Sales Engineer"
+    ],
+    "strength": "high",
+    "strategic_category": "industrial",
+    "evidence_type": "customer_enablement",
+    "secondary_evidence_types": [
+      "vendor_coordination",
+      "technical_support"
+    ]
+  },
+  {
+    "id": "ACH_030",
+    "company": "Regal Rexnord",
+    "category": "Industrial Applications",
+    "title": "Supported industrial applications across strategic manufacturing industries",
+    "description": "Provided technical and operational support for industrial applications involving cooling towers, conveyors, and bucket elevator systems.",
+    "business_problem": "Manufacturing customers required reliable industrial component selection and operational support.",
+    "solution": "Supported technical product selection and operational planning initiatives for industrial applications.",
+    "business_impact": [
+      "Improved customer operational support",
+      "Strengthened strategic manufacturing relationships",
+      "Supported reliability-focused operations"
+    ],
+    "metrics": {
+      "strategic_accounts": "Disney, Universal"
+    },
+    "tools": [
+      "Salesforce",
+      "Industrial Applications",
+      "Technical Training"
+    ],
+    "keywords": [
+      "industrial applications",
+      "manufacturing operations",
+      "conveyors",
+      "cooling towers",
+      "bucket elevators"
+    ],
+    "supports_roles": [
+      "Industrial PM",
+      "Operations PM",
+      "Technical PM",
+      "Sales Engineer"
+    ],
+    "strength": "high",
+    "strategic_category": "industrial",
+    "evidence_type": "technical_delivery",
+    "secondary_evidence_types": [
+      "industrial_applications",
+      "customer_support"
+    ]
+  },
+  {
+    "id": "ACH_031",
+    "company": "Chamberlain Group",
+    "category": "User Adoption",
+    "title": "Increased MyQ Community platform adoption",
+    "description": "Used Google Analytics, product usage data, and customer feedback to prioritize improvements to the MyQ Community platform experience.",
+    "business_problem": "The platform needed stronger adoption and clearer visibility into how property managers and communities engaged with key features.",
+    "solution": "Analyzed usage behavior, identified friction points, and prioritized roadmap improvements with engineering and UX teams.",
+    "business_impact": [
+      "Increased platform adoption",
+      "Improved user engagement",
+      "Supported roadmap decisions grounded in customer behavior"
+    ],
+    "metrics": {
+      "adoption_growth": "15%"
+    },
+    "tools": [
+      "Google Analytics",
+      "Jira",
+      "Confluence",
+      "Product Usage Analytics"
+    ],
+    "keywords": [
+      "platform adoption",
+      "user engagement",
+      "customer feedback",
+      "product usage analytics",
+      "roadmap prioritization",
+      "customer experience"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Consumer Product PM",
+      "Platform PM",
+      "Growth PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "customer_growth",
+    "evidence_type": "adoption",
+    "secondary_evidence_types": [
+      "user_engagement",
+      "customer_growth"
+    ]
+  },
+  {
+    "id": "ACH_032",
+    "company": "Chamberlain Group",
+    "category": "Customer Experience",
+    "title": "Improved customer satisfaction through UX enhancements",
+    "description": "Prioritized customer-reported friction points and UX improvements across MyQ Community workflows.",
+    "business_problem": "Users experienced friction in key platform workflows, affecting satisfaction and support needs.",
+    "solution": "Partnered with UX, engineering, and customer-facing teams to identify pain points and deliver targeted product improvements.",
+    "business_impact": [
+      "Improved customer satisfaction",
+      "Reduced user friction",
+      "Supported stronger platform engagement"
+    ],
+    "metrics": {
+      "nps_improvement": "+10 points"
+    },
+    "tools": [
+      "Customer Feedback",
+      "UX Review",
+      "Jira",
+      "Product Analytics"
+    ],
+    "keywords": [
+      "customer experience",
+      "UX",
+      "NPS",
+      "user friction",
+      "customer feedback",
+      "product improvements"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Consumer Product PM",
+      "UX PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "customer_experience",
+    "evidence_type": "ux",
+    "secondary_evidence_types": [
+      "customer_feedback",
+      "usability"
+    ]
+  },
+  {
+    "id": "ACH_033",
+    "company": "Chamberlain Group",
+    "category": "Support Reduction",
+    "title": "Reduced support burden through product improvements",
+    "description": "Partnered with support and engineering teams to identify recurring user issues and prioritize fixes for MyQ Community.",
+    "business_problem": "Recurring support issues created friction for users and consumed internal support resources.",
+    "solution": "Analyzed support themes, prioritized defects and workflow improvements, and coordinated fixes through Agile delivery cycles.",
+    "business_impact": [
+      "Reduced support tickets",
+      "Improved user experience",
+      "Improved product reliability"
+    ],
+    "metrics": {
+      "support_reduction": "10%"
+    },
+    "tools": [
+      "Support Feedback",
+      "Jira",
+      "Agile",
+      "Customer Feedback"
+    ],
+    "keywords": [
+      "support reduction",
+      "customer experience",
+      "user issues",
+      "product quality",
+      "workflow improvement",
+      "Agile delivery"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Customer Experience PM",
+      "Platform PM"
+    ],
+    "strength": "high",
+    "strategic_category": "customer_experience",
+    "evidence_type": "customer_experience",
+    "secondary_evidence_types": [
+      "support_reduction",
+      "customer_experience"
+    ]
+  },
+  {
+    "id": "ACH_034",
+    "company": "Chamberlain Group",
+    "category": "Onboarding Experience",
+    "title": "Improved onboarding experience across MyQ communities",
+    "description": "Improved onboarding workflows and engagement visibility for MyQ Community users across 100+ communities.",
+    "business_problem": "Community onboarding required better measurement and workflow improvements to reduce friction for new users.",
+    "solution": "Analyzed onboarding behavior, defined KPIs, and prioritized improvements with engineering, UX, and analytics stakeholders.",
+    "business_impact": [
+      "Improved onboarding efficiency by 15%",
+      "Supported adoption across 100+ communities",
+      "Improved visibility into user activation"
+    ],
+    "metrics": {
+      "onboarding_improvement": "15%",
+      "communities_supported": "100+",
+      "active_users": "600+"
+    },
+    "tools": [
+      "Power BI",
+      "Databricks",
+      "SQL",
+      "Product Analytics"
+    ],
+    "keywords": [
+      "onboarding",
+      "activation",
+      "user engagement",
+      "customer journey",
+      "product analytics",
+      "adoption"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Consumer Product PM",
+      "Growth PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "customer_growth",
+    "evidence_type": "adoption",
+    "secondary_evidence_types": [
+      "onboarding",
+      "user_engagement"
+    ]
+  },
+  {
+    "id": "ACH_036",
+    "company": "Emerson Electric",
+    "category": "Customer Discovery",
+    "title": "Translated customer requirements into scalable platform capabilities",
+    "description": "Conducted customer interviews and requirements gathering to balance custom telemetry reporting requests against scalable product development.",
+    "business_problem": "Enterprise customers requested highly customized analytics workflows that could slow roadmap execution and reduce scalability.",
+    "solution": "Synthesized customer needs into scalable requirements and prioritized reusable analytics capabilities.",
+    "business_impact": [
+      "Improved roadmap alignment",
+      "Reduced custom development requests",
+      "Improved scalability of product delivery"
+    ],
+    "metrics": {
+      "customer_coverage": "80%",
+      "custom_solution_approval": "1%"
+    },
+    "tools": [
+      "Customer Interviews",
+      "Roadmap Planning",
+      "REST APIs",
+      "Product Requirements"
+    ],
+    "keywords": [
+      "customer discovery",
+      "requirements gathering",
+      "roadmap tradeoffs",
+      "platform scalability",
+      "customer needs",
+      "product strategy"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Platform PM",
+      "Technical PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "customer_discovery",
+    "evidence_type": "customer_discovery",
+    "secondary_evidence_types": [
+      "platform_strategy",
+      "workflow_simplification"
+    ]
+  },
+  {
+    "id": "ACH_037",
+    "company": "Emerson Electric",
+    "category": "Customer Retention",
+    "title": "Reduced churn through customer-facing reporting enhancements",
+    "description": "Developed customer-facing reporting capabilities that improved visibility into operational performance and increased perceived platform value.",
+    "business_problem": "Customers needed clearer insight into operational performance to justify continued platform usage.",
+    "solution": "Prioritized reporting enhancements and analytics workflows that surfaced actionable performance insights.",
+    "business_impact": [
+      "Reduced customer churn by 15%",
+      "Improved customer retention",
+      "Expanded analytics platform usage"
+    ],
+    "metrics": {
+      "churn_reduction": "15%"
+    },
+    "tools": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Customer Analytics"
+    ],
+    "keywords": [
+      "customer retention",
+      "churn reduction",
+      "reporting enhancements",
+      "customer value",
+      "product adoption"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Customer Success PM",
+      "Data PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "customer_success",
+    "evidence_type": "customer_success",
+    "secondary_evidence_types": [
+      "retention",
+      "customer_value"
+    ]
+  },
+  {
+    "id": "ACH_038",
+    "company": "LITET",
+    "category": "Conversion Optimization",
+    "title": "Improved conversion through listing and merchandising optimization",
+    "description": "Iteratively optimized product pages, imagery, pricing, and bundles across Amazon and Shopify to improve purchase behavior.",
+    "business_problem": "Marketplace listings needed stronger merchandising and pricing strategy to improve conversion and average order value.",
+    "solution": "Used customer behavior, advertising data, and profitability analysis to refine product pages, bundles, and pricing.",
+    "business_impact": [
+      "Improved conversion performance",
+      "Increased average order value",
+      "Supported revenue growth and product mix improvements"
+    ],
+    "metrics": {
+      "revenue_growth": "400% YoY",
+      "roas_improvement": "1.2 to 4.0"
+    },
+    "tools": [
+      "Amazon Seller Central",
+      "Shopify",
+      "Power BI",
+      "Python"
+    ],
+    "keywords": [
+      "conversion optimization",
+      "merchandising",
+      "customer journey",
+      "pricing strategy",
+      "AOV",
+      "e-commerce"
+    ],
+    "supports_roles": [
+      "Growth PM",
+      "Consumer Product PM",
+      "E-commerce PM",
+      "Product Manager"
+    ],
+    "strength": "very_high",
+    "strategic_category": "growth",
+    "evidence_type": "experimentation",
+    "secondary_evidence_types": [
+      "conversion",
+      "merchandising"
+    ]
+  },
+  {
+    "id": "ACH_039",
+    "company": "LITET",
+    "category": "Product Portfolio Strategy",
+    "title": "Expanded product portfolio using customer demand signals",
+    "description": "Analyzed purchasing patterns and customer behavior to launch new product configurations and bundles.",
+    "business_problem": "The business needed to expand beyond single-product purchases and improve product mix.",
+    "solution": "Used sales behavior, profitability analysis, and customer demand signals to introduce bundled products and new pack sizes.",
+    "business_impact": [
+      "Diversified revenue streams",
+      "Improved product mix",
+      "3-pack and 6-pack bundles reached 90% of revenue"
+    ],
+    "metrics": {
+      "bundle_revenue_share": "90%",
+      "3_pack_revenue_share": "75%",
+      "6_pack_revenue_share": "15%"
+    },
+    "tools": [
+      "Python",
+      "Power BI",
+      "Amazon Seller Central"
+    ],
+    "keywords": [
+      "product portfolio",
+      "customer demand",
+      "product strategy",
+      "bundles",
+      "assortment strategy",
+      "consumer behavior"
+    ],
+    "supports_roles": [
+      "Product Manager",
+      "Growth PM",
+      "Consumer Product PM",
+      "E-commerce PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "product_strategy",
+    "evidence_type": "product_strategy",
+    "secondary_evidence_types": [
+      "assortment_strategy",
+      "customer_demand"
+    ]
+  },
+  {
+    "id": "ACH_040",
+    "company": "LITET",
+    "category": "Customer Reviews",
+    "title": "Used customer feedback and reviews to improve product positioning",
+    "description": "Monitored customer reviews, product feedback, and purchase behavior to refine product positioning and merchandising across online channels.",
+    "business_problem": "The brand needed stronger alignment between product messaging, customer expectations, and marketplace presentation.",
+    "solution": "Analyzed reviews and customer feedback to improve product content, imagery, positioning, and bundle messaging.",
+    "business_impact": [
+      "Improved product positioning",
+      "Supported review growth and customer trust",
+      "Strengthened merchandising decisions"
+    ],
+    "metrics": {
+      "amazon_rating": "4.8-4.9 stars"
+    },
+    "tools": [
+      "Amazon Seller Central",
+      "Shopify",
+      "Customer Reviews"
+    ],
+    "keywords": [
+      "customer feedback",
+      "reviews",
+      "product positioning",
+      "merchandising",
+      "customer trust",
+      "consumer insights"
+    ],
+    "supports_roles": [
+      "Consumer Product PM",
+      "Growth PM",
+      "Product Manager"
+    ],
+    "strength": "high",
+    "strategic_category": "customer_experience",
+    "evidence_type": "customer_experience",
+    "secondary_evidence_types": [
+      "positioning",
+      "customer_feedback"
+    ]
+  },
+
+  {
+    "id": "ACH_052",
+    "company": "Chamberlain Group",
+    "category": "Customer Experience",
+    "evidence_type": "ux",
+    "secondary_evidence_types": ["adoption", "customer_discovery"],
+    "title": "Improved MyQ Community user experience through friction-point prioritization",
+    "description": "Partnered with UX, engineering, and customer-facing teams to identify recurring user friction points across the MyQ Community platform and prioritize improvements.",
+    "business_problem": "User friction was affecting satisfaction, adoption, and engagement across the MyQ Community experience.",
+    "solution": "Used customer feedback, product usage data, and cross-functional prioritization to focus engineering effort on high-impact UX improvements.",
+    "business_impact": [
+      "Improved NPS by 10 points",
+      "Reduced user friction",
+      "Strengthened platform engagement"
+    ],
+    "metrics": {
+      "nps_improvement": "+10 points"
+    },
+    "tools": ["Jira", "Confluence", "Product Analytics", "Customer Feedback"],
+    "keywords": ["UX", "user experience", "customer feedback", "NPS", "user friction", "product adoption"],
+    "supports_roles": ["Product Manager", "Platform PM", "Consumer PM"],
+    "strength": "very_high",
+    "strategic_category": "customer_experience"
+  },
+  {
+    "id": "ACH_041",
+    "company": "Chamberlain Group",
+    "category": "Product Adoption",
+    "evidence_type": "adoption",
+    "secondary_evidence_types": ["ux", "roadmap_ownership"],
+    "title": "Increased MyQ Community platform adoption through customer-led roadmap improvements",
+    "description": "Analyzed onboarding behavior, engagement data, and stakeholder feedback to prioritize improvements that increased adoption of the MyQ Community platform.",
+    "business_problem": "Platform adoption required better onboarding, clearer product value, and improved engagement workflows.",
+    "solution": "Prioritized roadmap improvements focused on onboarding efficiency, user engagement, and customer-facing platform enhancements.",
+    "business_impact": [
+      "Increased platform adoption by 15%",
+      "Improved onboarding efficiency",
+      "Supported growth across 100+ communities"
+    ],
+    "metrics": {
+      "adoption_growth": "15%",
+      "communities_supported": "100+"
+    },
+    "tools": ["Google Analytics", "Power BI", "Databricks", "Jira"],
+    "keywords": ["platform adoption", "onboarding", "engagement", "customer experience", "roadmap"],
+    "supports_roles": ["Product Manager", "Platform PM", "Growth PM"],
+    "strength": "very_high",
+    "strategic_category": "adoption"
+  },
+  {
+    "id": "ACH_042",
+    "company": "Chamberlain Group",
+    "category": "Roadmap Prioritization",
+    "evidence_type": "roadmap_ownership",
+    "secondary_evidence_types": ["stakeholder_influence", "technical_delivery"],
+    "title": "Established roadmap prioritization discipline for MyQ Community platform",
+    "description": "Implemented RICE-based prioritization across feature requests, bug backlog, and platform improvements for the MyQ Community product.",
+    "business_problem": "Competing stakeholder needs created roadmap ambiguity and inconsistent prioritization across product, engineering, and support teams.",
+    "solution": "Introduced a structured prioritization framework to evaluate impact, effort, confidence, and reach across roadmap decisions.",
+    "business_impact": [
+      "Improved roadmap transparency",
+      "Improved sprint planning discipline",
+      "Increased stakeholder alignment around product priorities"
+    ],
+    "metrics": {
+      "sprint_cycle": "2 weeks"
+    },
+    "tools": ["RICE", "Jira", "Confluence", "Agile"],
+    "keywords": ["roadmap prioritization", "RICE", "stakeholder alignment", "Agile", "platform roadmap"],
+    "supports_roles": ["Product Manager", "Platform PM", "Technical PM"],
+    "strength": "high",
+    "strategic_category": "product_execution"
+  },
+  {
+    "id": "ACH_043",
+    "company": "Chamberlain Group",
+    "category": "Stakeholder Management",
+    "evidence_type": "stakeholder_influence",
+    "secondary_evidence_types": ["technical_delivery", "platform_strategy"],
+    "title": "Aligned software, firmware, hardware, UX, and analytics teams around platform initiatives",
+    "description": "Coordinated cross-functional planning across software, firmware, hardware, UX, analytics, and QE teams to support MyQ Community platform initiatives.",
+    "business_problem": "Connected-device platform work required alignment across multiple technical and product disciplines.",
+    "solution": "Created shared execution plans, clarified dependencies, and coordinated delivery across engineering and product stakeholders.",
+    "business_impact": [
+      "Improved cross-functional coordination",
+      "Supported expanded IoT device integrations",
+      "Improved product delivery alignment"
+    ],
+    "metrics": {},
+    "tools": ["Jira", "Confluence", "Agile", "Databricks"],
+    "keywords": ["cross-functional leadership", "stakeholder management", "firmware", "hardware", "IoT", "platform delivery"],
+    "supports_roles": ["Technical PM", "Platform PM", "IoT PM"],
+    "strength": "high",
+    "strategic_category": "stakeholder_influence"
+  },
+  {
+    "id": "ACH_044",
+    "company": "Emerson Electric",
+    "category": "Platform Strategy",
+    "evidence_type": "platform_strategy",
+    "secondary_evidence_types": ["roadmap_ownership", "scalability"],
+    "title": "Defined scalable analytics platform strategy for enterprise customers",
+    "description": "Owned roadmap decisions for telemetry analytics capabilities, balancing customer requests, scalability requirements, and engineering capacity.",
+    "business_problem": "Enterprise customers requested highly customized analytics capabilities that threatened platform scalability and slowed delivery.",
+    "solution": "Prioritized reusable platform capabilities that addressed the most common enterprise customer needs while reducing dependence on custom development.",
+    "business_impact": [
+      "Improved platform scalability",
+      "Reduced custom development overhead",
+      "Improved focus on high-value customer requirements"
+    ],
+    "metrics": {
+      "customer_coverage": "80%",
+      "custom_solution_approval": "1%"
+    },
+    "tools": ["Roadmap Planning", "Customer Interviews", "REST APIs", "SQL"],
+    "keywords": ["platform strategy", "roadmap ownership", "scalability", "enterprise platform", "MVP"],
+    "supports_roles": ["Platform PM", "Technical PM", "Product Manager"],
+    "strength": "very_high",
+    "strategic_category": "platform_strategy"
+  },
+  {
+    "id": "ACH_045",
+    "company": "Emerson Electric",
+    "category": "Customer Discovery",
+    "evidence_type": "customer_discovery",
+    "secondary_evidence_types": ["platform_strategy", "mvp_decisions"],
+    "title": "Translated enterprise customer workflows into reusable product capabilities",
+    "description": "Conducted customer discovery sessions to understand recurring reporting, integration, and workflow needs across enterprise analytics customers.",
+    "business_problem": "Customer needs were often expressed as one-off reporting requests instead of scalable product requirements.",
+    "solution": "Identified common workflow patterns and converted them into reusable analytics and API platform capabilities.",
+    "business_impact": [
+      "Improved roadmap alignment with customer needs",
+      "Reduced custom development requests",
+      "Expanded platform adoption"
+    ],
+    "metrics": {},
+    "tools": ["Customer Interviews", "Roadmap Planning", "REST APIs", "SQL"],
+    "keywords": ["customer discovery", "workflow analysis", "product requirements", "platform capabilities", "enterprise customers"],
+    "supports_roles": ["Product Manager", "Platform PM", "Technical PM"],
+    "strength": "very_high",
+    "strategic_category": "customer_discovery"
+  },
+  {
+    "id": "ACH_046",
+    "company": "Emerson Electric",
+    "category": "MVP Strategy",
+    "evidence_type": "roadmap_ownership",
+    "secondary_evidence_types": ["platform_strategy", "scalability"],
+    "title": "Defined MVP boundaries to reduce custom development and accelerate delivery",
+    "description": "Set MVP scope for analytics products by prioritizing summary-level reporting and high-frequency customer needs over highly customized reporting requests.",
+    "business_problem": "Customization pressure increased delivery complexity and limited scalability of the analytics platform.",
+    "solution": "Established clear MVP boundaries and roadmap tradeoffs to focus product development on reusable capabilities.",
+    "business_impact": [
+      "Covered approximately 80% of customer needs",
+      "Reduced custom development to 1%",
+      "Improved delivery focus and platform scalability"
+    ],
+    "metrics": {
+      "customer_coverage": "80%",
+      "custom_development_reduction": "99%"
+    },
+    "tools": ["Roadmap Planning", "Customer Interviews", "REST APIs"],
+    "keywords": ["MVP", "roadmap tradeoffs", "prioritization", "scalability", "customization"],
+    "supports_roles": ["Product Manager", "Platform PM", "Technical PM"],
+    "strength": "very_high",
+    "strategic_category": "product_execution"
+  },
+  {
+    "id": "ACH_047",
+    "company": "Emerson Electric",
+    "category": "Product Launch",
+    "evidence_type": "business_outcomes",
+    "secondary_evidence_types": ["platform_strategy", "technical_delivery"],
+    "title": "Launched enterprise analytics product generating $200K+ in new revenue",
+    "description": "Led development and launch of customer-facing analytics capabilities built on enterprise telemetry data.",
+    "business_problem": "Enterprise customers needed better visibility into operational performance and telemetry-driven insights.",
+    "solution": "Launched a scalable analytics product that converted customer telemetry data into actionable reporting and decision-support capabilities.",
+    "business_impact": [
+      "Generated over $200K in new revenue",
+      "Expanded analytics platform adoption",
+      "Created a repeatable product offering from customer reporting needs"
+    ],
+    "metrics": {
+      "new_revenue": "$200K+"
+    },
+    "tools": ["SQL", "Python", "Azure", "Snowflake", "Power BI"],
+    "keywords": ["product launch", "analytics product", "revenue growth", "enterprise SaaS", "platform adoption"],
+    "supports_roles": ["Product Manager", "Platform PM", "Data PM"],
+    "strength": "very_high",
+    "strategic_category": "business_outcomes"
+  },
+  {
+    "id": "ACH_048",
+    "company": "LITET",
+    "category": "Customer Discovery",
+    "evidence_type": "customer_discovery",
+    "secondary_evidence_types": ["product_design", "experimentation"],
+    "title": "Validated product-market fit through cyclist interviews and product testing",
+    "description": "Conducted customer interviews and iterative product testing to refine sock fit, materials, color selection, pricing, and minimalist product design.",
+    "business_problem": "Initial product concepts required validation before scaling inventory and marketing investment.",
+    "solution": "Used direct customer feedback and iterative testing cycles to guide product design, pricing, and positioning decisions.",
+    "business_impact": [
+      "Improved product-market fit",
+      "Validated pricing and product positioning",
+      "Supported successful product adoption and review growth"
+    ],
+    "metrics": {
+      "customer_interviews": "20+",
+      "development_cycle": "6 months"
+    },
+    "tools": ["Customer Interviews", "Product Testing", "Vendor Coordination"],
+    "keywords": ["customer discovery", "product-market fit", "product testing", "user research", "product positioning"],
+    "supports_roles": ["Product Manager", "Consumer PM", "Growth PM"],
+    "strength": "high",
+    "strategic_category": "customer_discovery"
+  },
+  {
+    "id": "ACH_049",
+    "company": "LITET",
+    "category": "Experimentation",
+    "evidence_type": "experimentation",
+    "secondary_evidence_types": ["business_outcomes", "growth"],
+    "title": "Optimized product assortment through pricing and bundle experiments",
+    "description": "Tested bundled product configurations, pricing strategies, and assortment options using customer behavior, profitability, and sales performance data.",
+    "business_problem": "Single-product purchase behavior limited average order value and revenue growth.",
+    "solution": "Launched and evaluated 3-pack and 6-pack bundles to improve customer value, product mix, and profitability.",
+    "business_impact": [
+      "3-pack products grew to 75% of total revenue",
+      "6-pack products contributed 15% of total revenue",
+      "Improved product mix and average order value"
+    ],
+    "metrics": {
+      "3_pack_revenue_share": "75%",
+      "6_pack_revenue_share": "15%"
+    },
+    "tools": ["Python", "Power BI", "Amazon Seller Central", "Shopify"],
+    "keywords": ["experimentation", "pricing strategy", "bundle strategy", "conversion optimization", "product assortment"],
+    "supports_roles": ["Growth PM", "Product Manager", "Consumer PM"],
+    "strength": "very_high",
+    "strategic_category": "experimentation"
+  },
+  {
+    "id": "ACH_050",
+    "company": "LITET",
+    "category": "Product Design",
+    "evidence_type": "ux",
+    "secondary_evidence_types": ["customer_discovery", "product_design"],
+    "title": "Led iterative product design from concept to market launch",
+    "description": "Worked with customers and manufacturing partners to refine fit, materials, packaging, and product positioning through multiple design iterations.",
+    "business_problem": "The product needed to balance performance, comfort, minimalist design, and customer willingness to pay.",
+    "solution": "Used feedback cycles with customers and vendors to improve the product before launch.",
+    "business_impact": [
+      "Improved product quality",
+      "Improved customer satisfaction",
+      "Supported successful launch of LITET cycling socks"
+    ],
+    "metrics": {},
+    "tools": ["Customer Feedback", "Vendor Coordination", "Product Testing"],
+    "keywords": ["product design", "customer feedback", "iteration", "product development", "consumer product"],
+    "supports_roles": ["Consumer PM", "Product Manager", "Growth PM"],
+    "strength": "high",
+    "strategic_category": "product_design"
+  },
+  {
+    "id": "ACH_051",
+    "company": "LITET",
+    "category": "Founder-Led Product Strategy",
+    "evidence_type": "business_outcomes",
+    "secondary_evidence_types": ["platform_strategy", "experimentation"],
+    "title": "Scaled DTC commerce brand through founder-led product and growth strategy",
+    "description": "Owned product, pricing, channel, advertising, and operational decisions for LITET across Amazon, Shopify, and distributor channels.",
+    "business_problem": "The business needed scalable growth across channels while maintaining profitability and operational control.",
+    "solution": "Combined product experimentation, channel strategy, PPC optimization, and operational tooling to scale revenue and improve margin control.",
+    "business_impact": [
+      "Increased revenue by 400% YoY",
+      "Improved ROAS from 1.2 to 4.0",
+      "Expanded marketplace and distributor channels"
+    ],
+    "metrics": {
+      "revenue_growth": "400%",
+      "roas_improvement": "1.2 to 4.0"
+    },
+    "tools": ["Amazon Seller Central", "Shopify", "Python", "Power BI", "Helium 10"],
+    "keywords": ["founder", "growth strategy", "product strategy", "e-commerce", "marketplace optimization"],
+    "supports_roles": ["Product Manager", "Growth PM", "E-commerce PM"],
+    "strength": "very_high",
+    "strategic_category": "business_outcomes"
+  }, 
+
+  {
+    "id": "ACH_053",
+    "company": "Independent AI & Product Consulting",
+    "category": "AI Knowledge Systems",
+    "evidence_maturity": "implemented",
+    "title": "Built RAG-based technical knowledge assistant for industrial motion products",
+    "description": "Designed and built a retrieval-augmented generation (RAG) knowledge assistant to answer technical product questions across THK catalogs, Thomson catalogs, RFQ documentation, and internal product guides.",
+    "business_problem": "Sales and product teams spent significant time searching catalogs, validating technical information, and relying on expert knowledge for product equivalents and application guidance.",
+    "solution": "Implemented a RAG workflow combining document ingestion, chunking, embeddings, vector search, citation-based responses, and structured answer generation.",
+    "business_impact": [
+      "Centralized technical product knowledge across multiple documentation sources",
+      "Improved access to technical documentation for sales and product teams",
+      "Created reusable knowledge infrastructure for future AI-powered workflows"
+    ],
+    "metrics": {
+      "knowledge_sources": "THK catalogs, Thomson catalogs, RFQ documentation, internal product guides"
+    },
+    "success_metrics": {
+      "technical_search_time_goal": "20 minutes to 5 minutes",
+      "self_service_completion_goal": "90%"
+    },
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "RAG",
+      "Embeddings",
+      "Vector Database",
+      "Streamlit",
+      "SQLite"
+    ],
+    "keywords": [
+      "RAG",
+      "retrieval-augmented generation",
+      "embeddings",
+      "vector search",
+      "AI knowledge assistant",
+      "technical documentation",
+      "enterprise AI",
+      "AI workflows",
+      "knowledge retrieval",
+      "LLM applications"
+    ],
+    "supports_roles": [
+      "AI PM",
+      "Technical PM",
+      "Platform PM",
+      "Data PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "ai_products",
+    "evidence_type": "ai_workflows",
+    "secondary_evidence_types": [
+      "knowledge_systems",
+      "technical_delivery",
+      "retrieval_systems"
+    ]
+  }, 
+  {
+    "id": "ACH_054",
+    "company": "Independent AI & Product Consulting",
+    "category": "AI Evaluation",
+    "evidence_maturity": "design",
+    "title": "Designed evaluation framework for RAG-based technical assistant",
+    "description": "Created an evaluation framework to measure the quality, reliability, and usefulness of AI-generated technical product answers.",
+    "business_problem": "AI-generated technical recommendations require validation to ensure accuracy, reduce hallucination risk, and build user trust.",
+    "solution": "Defined evaluation criteria for retrieval accuracy, citation accuracy, answer correctness, hallucination risk, and human approval of recommendations.",
+    "business_impact": [
+      "Established measurable quality standards for AI-generated technical answers",
+      "Created a repeatable evaluation approach for future AI products",
+      "Defined quality controls to support trust in AI-assisted workflows"
+    ],
+    "metrics": {
+      "evaluation_dimensions": "5"
+    },
+    "success_metrics": {
+      "hallucination_rate_goal": "<5%"
+    },
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "Evaluation Frameworks",
+      "RAG",
+      "Human Review"
+    ],
+    "keywords": [
+      "AI evaluation",
+      "RAG evaluation",
+      "retrieval accuracy",
+      "citation accuracy",
+      "hallucination mitigation",
+      "human-in-the-loop",
+      "AI quality metrics",
+      "evaluation framework"
+    ],
+    "supports_roles": [
+      "AI PM",
+      "Technical PM",
+      "Platform PM"
+    ],
+    "strength": "very_high",
+    "strategic_category": "ai_quality",
+    "evidence_type": "evaluation",
+    "secondary_evidence_types": [
+      "ai_workflows",
+      "human_review",
+      "quality_frameworks"
+    ]
+  },
+  {
+    "id": "ACH_055",
+    "company": "Independent AI & Product Consulting",
+    "category": "Workflow Automation",
+    "evidence_maturity": "design",
+    "title": "Designed AI-assisted interchange workflow for competitor-to-THK product matching",
+    "description": "Designed an AI-assisted workflow to help sales and product teams identify THK equivalents for competitor linear motion part numbers using technical documentation and reusable mapping logic.",
+    "business_problem": "Competitor product interchange analysis depends heavily on expert review and repeated manual comparison of technical datasheets.",
+    "solution": "Designed a workflow that identifies competitor family, type, and size attributes, retrieves relevant technical documentation, and recommends THK equivalents with supporting rationale.",
+    "business_impact": [
+      "Designed a reusable workflow for technical product interchange analysis",
+      "Reduced expected dependency on senior product manager involvement",
+      "Created reusable mapping knowledge that improves with each validated interchange"
+    ],
+    "metrics": {},
+    "success_metrics": {
+      "interchange_time_goal": "20 minutes to 5 minutes",
+      "independent_completion_goal": "90%"
+    },
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "RAG",
+      "SQLite",
+      "Streamlit",
+      "Technical Documentation"
+    ],
+    "keywords": [
+      "workflow automation",
+      "AI recommendations",
+      "technical product matching",
+      "RAG",
+      "knowledge systems",
+      "human-in-the-loop",
+      "AI workflows",
+      "decision support"
+    ],
+    "supports_roles": [
+      "AI PM",
+      "Technical PM",
+      "Platform PM",
+      "Industrial PM"
+    ],
+    "strength": "high",
+    "strategic_category": "automation",
+    "evidence_type": "ai_workflows",
+    "secondary_evidence_types": [
+      "workflow_automation",
+      "knowledge_systems",
+      "decision_support"
+    ]
+  }
+  
+  
+
+  
+]
