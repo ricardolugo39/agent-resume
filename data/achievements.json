@@ -2080,7 +2080,11 @@
       "knowledge systems",
       "human-in-the-loop",
       "AI workflows",
-      "decision support"
+      "decision support",
+      "part number parsing",
+      "product equivalency",
+      "technical taxonomy",
+      "industrial AI"
     ],
     "supports_roles": [
       "AI PM",
@@ -2096,6 +2100,92 @@
       "knowledge_systems",
       "decision_support"
     ]
+  },
+  {
+    "id": "ACH_057",
+    "company": "Lugo Hermanos",
+    "category": "Sales Operations Analytics",
+    "title": "Built sales management control center using CRM, email, and sales data",
+    "description": "Developed an internal control center to monitor sales activity, customer follow-ups, CRM opportunities, recent emails, and advisor performance.",
+    "business_problem": "Sales follow-up and customer activity were fragmented across email, CRM files, and historical sales data.",
+    "solution": "Integrated Gmail activity, CRM records, and sales history into a centralized workflow for commercial visibility and follow-up management.",
+    "business_impact": [
+      "Improved visibility into advisor activity and customer follow-up",
+      "Supported more disciplined sales management cadence",
+      "Created foundation for AI-assisted commercial recommendations"
+    ],
+    "tools": ["Python", "SQLite", "Gmail API", "Streamlit", "CRM Data"],
+    "keywords": [
+      "sales operations",
+      "CRM analytics",
+      "Gmail API",
+      "commercial intelligence",
+      "manager dashboard",
+      "workflow automation"
+    ],
+    "supports_roles": ["Product Manager", "Technical PM", "Operations PM", "AI PM"],
+    "strength": "very_high",
+    "strategic_category": "automation",
+    "evidence_type": "technical_delivery"
+  },
+  {
+    "id": "ACH_058",
+    "company": "Lugo Hermanos",
+    "category": "Data Infrastructure",
+    "title": "Migrated legacy commercial data into SQLite analytics environment",
+    "description": "Converted legacy Access-based sales and CRM data into a SQLite environment to support analysis, reporting, and internal product workflows.",
+    "business_problem": "Commercial data was difficult to analyze at scale because it lived in fragmented legacy databases and spreadsheets.",
+    "solution": "Migrated sales, customer, and CRM records into a structured database used for reporting and operational applications.",
+    "business_impact": [
+      "Centralized over 285,000 sales records and 36,000 customer records",
+      "Improved ability to analyze customer history, sales trends, and CRM activity",
+      "Enabled future AI and analytics workflows on top of structured business data"
+    ],
+    "metrics": {
+      "sales_rows": "285000+",
+      "customer_rows": "36000+",
+      "crm_rows": "650+"
+    },
+    "tools": ["Python", "SQLite", "Access", "Excel"],
+    "keywords": [
+      "data migration",
+      "legacy systems",
+      "SQLite",
+      "CRM analytics",
+      "sales analytics",
+      "data infrastructure"
+    ],
+    "supports_roles": ["Data PM", "Technical PM", "Operations PM"],
+    "strength": "high",
+    "strategic_category": "technical_systems",
+    "evidence_type": "data_infrastructure"
+  },
+  {
+    "id": "ACH_059",
+    "company": "LITET",
+    "category": "Unit Economics",
+    "title": "Built landed cost and COGS platform for SKU-level profitability control",
+    "description": "Developed a COGS system tracking purchase orders, freight, bank fees, packaging, inventory lots, and SKU-level landed cost.",
+    "business_problem": "Profitability decisions required accurate SKU-level cost visibility across product cost, freight, fees, and packaging.",
+    "solution": "Built database-backed workflows to allocate landed costs by SKU and maintain inventory lot-level cost history.",
+    "business_impact": [
+      "Improved visibility into true SKU profitability",
+      "Supported pricing, replenishment, and margin decisions",
+      "Created scalable cost foundation for wholesale and marketplace growth"
+    ],
+    "tools": ["Python", "SQLite", "Streamlit", "Amazon Seller Central"],
+    "keywords": [
+      "unit economics",
+      "COGS",
+      "landed cost",
+      "SKU profitability",
+      "margin analysis",
+      "inventory lots"
+    ],
+    "supports_roles": ["Growth PM", "Operations PM", "Data PM", "Product Manager"],
+    "strength": "very_high",
+    "strategic_category": "business_outcomes",
+    "evidence_type": "operations"
   }
   
   
