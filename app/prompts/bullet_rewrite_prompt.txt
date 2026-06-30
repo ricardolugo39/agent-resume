@@ -43,6 +43,14 @@ Avoid:
 
 Owned platform roadmap and improved scalability.
 
+Rewrite Guidance
+
+{rewrite_guidance}
+
+If Rewrite Guidance is empty, ignore it.
+
+If provided, treat it as additional writing instructions while preserving factual accuracy and the approved resume strategy.
+
 Rules:
 
 - Use the achievement as the ONLY factual source.

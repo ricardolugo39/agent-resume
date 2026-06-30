@@ -1,6 +1,7 @@
 import json
 
 from app.llm_client import call_openai
+from app.resume_writing_guide import WRITING_GUIDE
 
 
 def clean_bullets(raw_text: str) -> list[str]:
@@ -25,6 +26,7 @@ def generate_company_section(
     achievements: list[dict],
     parsed_job: dict,
     resume_strategy: dict | None = None,
+    rewrite_plan: dict | None = None,
     max_bullets: int = 3
 ) -> list[str]:
 
@@ -50,8 +52,19 @@ def generate_company_section(
         "tone": resume_strategy.get("tone"),
     }
 
+    rewrite_focus = ""
+
+    if rewrite_plan:
+        rewrite_focus = "\n".join(
+            rewrite_plan.get("focus", [])
+        )
+
     prompt = f"""
 You are writing one cohesive resume experience section for Ricardo Lugo.
+
+Resume Writing Guide
+
+{WRITING_GUIDE}
 
 Company:
 {company}
@@ -73,6 +86,9 @@ Avoid angle:
 
 Resume strategy:
 {json.dumps(strategy_payload, indent=2)}
+
+Rewrite Guidance:
+{rewrite_focus}
 
 Selected achievements for this company:
 {json.dumps(achievements, indent=2)}

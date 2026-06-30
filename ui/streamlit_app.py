@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+import json
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE_DIR))
@@ -12,12 +13,14 @@ from app.matcher import match_achievements
 from app.resume_generator import generate_resume_outline
 from app.ats_optimizer import analyze_keyword_coverage
 from app.export_pdf import save_resume_pdf
-from app.fit_analyzer import analyze_role_fit
+from app.candidate_fit_agent import evaluate_candidate_fit
 from app.application_answer_generator import generate_application_answer
 from app.cover_letter_generator import generate_cover_letter
 from app.company_extractor import extract_company_name
 from app.export_cover_letter_pdf import save_cover_letter_pdf
 from app.resume_strategy_agent import build_resume_strategy_from_jd
+from app.resume_quality_gate import evaluate_resume_quality
+from app.application_store import save_application_record
 
 
 st.set_page_config(
@@ -56,26 +59,73 @@ if st.button("Analyze Job", key="analyze_job_button"):
             top_n=200
         )
 
+        fit_analysis = evaluate_candidate_fit(
+            job_text=job_text
+        )
+
+        print("=" * 80)
+        print("CANDIDATE FIT")
+        print(json.dumps(fit_analysis, indent=2))
+        print("=" * 80)
+
         resume_strategy = build_resume_strategy_from_jd(
             job_description=job_text,
+            candidate_fit=fit_analysis,
             selected_achievements=matches["top_achievements"]
         )
 
         outline = generate_resume_outline(
-            job_text,
+            job_text=job_text,
             top_n=top_n,
+            candidate_fit=fit_analysis,
             resume_strategy=resume_strategy,
-            match_results=matches
+            match_results=matches,
         )
+
+        quality_evaluation = evaluate_resume_quality(
+            job_text=job_text,
+            outline=outline,
+            candidate_fit=fit_analysis,
+            resume_strategy=resume_strategy,
+            iteration=1,
+        )
+
+        if quality_evaluation.decision != "PASS":
+            outline = generate_resume_outline(
+                job_text=job_text,
+                top_n=top_n,
+                candidate_fit=fit_analysis,
+                resume_strategy=resume_strategy,
+                match_results=matches,
+                rewrite_plan=quality_evaluation.rewrite_plan.to_dict()
+                if hasattr(quality_evaluation.rewrite_plan, "to_dict")
+                else quality_evaluation.rewrite_plan.__dict__,
+            )
+
+            quality_evaluation = evaluate_resume_quality(
+                job_text=job_text,
+                outline=outline,
+                candidate_fit=fit_analysis,
+                resume_strategy=resume_strategy,
+                iteration=2,
+            )
+        
+        resume_id = save_application_record(
+            job_description=job_text,
+            candidate_fit=fit_analysis,
+            resume_strategy=resume_strategy,
+            resume_outline=outline,
+            quality_evaluation=quality_evaluation,
+            company=None,
+            role=parsed.get("title") or parsed.get("role_type"),
+            status="Generated",
+        )
+
+        st.session_state.resume_id = resume_id
 
         ats = analyze_keyword_coverage(
             job_text,
             top_n=top_n
-        )
-
-        fit_analysis = analyze_role_fit(
-            parsed,
-            outline["selected_achievements"]
         )
 
     st.session_state.analysis_done = True
@@ -85,6 +135,9 @@ if st.button("Analyze Job", key="analyze_job_button"):
     st.session_state.ats = ats
     st.session_state.fit_analysis = fit_analysis
     st.session_state.resume_strategy = resume_strategy
+    st.session_state.quality_evaluation = quality_evaluation
+    if "resume_id" in st.session_state:
+        st.success(f"Resume saved successfully • ID: {st.session_state.resume_id}")
 
 
 if st.session_state.analysis_done:
@@ -96,10 +149,11 @@ if st.session_state.analysis_done:
     fit_analysis = st.session_state.fit_analysis
     resume_strategy = st.session_state.resume_strategy
 
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
         "Fit Analysis",
         "Strategy",
         "Resume Preview",
+        "Quality Gate",
         "Matched Achievements",
         "ATS Analysis",
         "Application Questions",
@@ -107,27 +161,78 @@ if st.session_state.analysis_done:
     ])
 
     with tab1:
-        st.subheader("Role Fit Evaluation")
 
-        st.metric("Fit Score", f'{fit_analysis["fit_score"]}/10')
-        st.metric("Fit Level", fit_analysis["fit_level"])
-        st.metric("Worth Applying", "Yes" if fit_analysis["worth_applying"] else "No")
+        st.subheader("Candidate Fit")
+
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric(
+            "Candidate Fit",
+            f'{fit_analysis["candidate_fit_score"]:.1f}/10'
+        )
+
+        col2.metric(
+            "Recommendation",
+            fit_analysis["apply_recommendation"]
+        )
+
+        col3.metric(
+            "Interview Probability",
+            fit_analysis["interview_probability"]
+        )
 
         st.divider()
 
-        st.subheader("Dimension Scores")
-        st.json(fit_analysis["dimension_scores"])
+        st.subheader("Summary")
+        st.write(fit_analysis["summary"])
 
-        st.subheader("Strengths")
-        for item in fit_analysis["strengths"]:
-            st.write(f"• {item}")
+        st.subheader("Recommended Positioning")
+        st.write(fit_analysis["recommended_positioning"])
 
-        st.subheader("Main Gaps")
-        for item in fit_analysis["gaps"]:
-            st.write(f"• {item}")
+        st.subheader("Strategy Guidance")
+        st.write(fit_analysis.get("strategy_guidance", "No strategy guidance returned."))
 
-        st.subheader("Positioning Advice")
-        st.write(fit_analysis["positioning_advice"])
+        st.divider()
+
+        st.subheader("Proven Matches")
+
+        for item in fit_analysis["proven_matches"]:
+            st.markdown(
+                f"**{item['category']}**  \n"
+                f"{item['evidence']}"
+            )
+
+        st.subheader("Credible Adjacencies")
+
+        for item in fit_analysis["credible_adjacencies"]:
+            st.markdown(
+                f"**{item['category']}**  \n"
+                f"{item['rationale']}"
+            )
+
+        st.subheader("Hard Gaps")
+
+        for item in fit_analysis["hard_gaps"]:
+            st.markdown(
+                f"**{item['category']}** ({item['severity']})  \n"
+                f"{item['explanation']}"
+            )
+
+        st.subheader("Recruiter Concerns")
+
+        for item in fit_analysis["recruiter_concerns"]:
+            st.markdown(
+                f"**{item['concern']}**  \n"
+                f"{item['mitigation']}"
+            )
+
+        st.subheader("Hiring Manager Concerns")
+
+        for item in fit_analysis["hiring_manager_concerns"]:
+            st.markdown(
+                f"**{item['concern']}**  \n"
+                f"{item['mitigation']}"
+            )
 
     with tab2:
         st.subheader("Resume Strategy")
@@ -238,6 +343,46 @@ if st.session_state.analysis_done:
                 )
 
     with tab4:
+        st.subheader("Resume Quality Gate")
+
+        quality_evaluation = st.session_state.quality_evaluation
+
+        col1, col2 = st.columns(2)
+
+        col1.metric("Decision", quality_evaluation.decision)
+        col2.metric(
+            "Interview Readiness Score",
+            quality_evaluation.interview_readiness_score
+        )
+
+        st.write(quality_evaluation.summary)
+
+        st.divider()
+
+        st.subheader("Strengths")
+        for strength in quality_evaluation.strengths:
+            st.write(f"• **{strength.criterion}** — {strength.reason}")
+
+        st.subheader("Findings")
+        for finding in quality_evaluation.findings:
+            with st.expander(
+                f"{finding.severity.upper()} | {finding.rule_id} | {finding.criterion}"
+            ):
+                st.write("Finding:", finding.finding)
+                st.write("Evidence:", finding.evidence)
+                st.write("Required Action:", finding.required_action)
+                st.write("Confidence:", finding.confidence)
+                st.write("Applies to:", finding.applies_to)
+
+        st.subheader("Rewrite Prompt")
+        st.text_area(
+            "Feedback for Generator",
+            value=quality_evaluation.rewrite_prompt,
+            height=180,
+            key="quality_gate_rewrite_prompt"
+        )
+
+    with tab5:
         st.subheader("Top Matched Achievements")
 
         for ach in matches["top_achievements"]:
@@ -253,7 +398,7 @@ if st.session_state.analysis_done:
                 st.write("Metrics:", ach.get("metrics"))
                 st.write("Matched Keywords:", ach.get("matched_keywords"))
 
-    with tab5:
+    with tab6:
         st.subheader("ATS Keyword Coverage")
 
         col1, col2, col3 = st.columns(3)
@@ -270,7 +415,7 @@ if st.session_state.analysis_done:
         st.write("Missing Keywords")
         st.write(ats["missing_keywords"])
 
-    with tab6:
+    with tab7:
         st.subheader("Application Question Answer Generator")
 
         company_name = st.text_input(
@@ -315,7 +460,7 @@ if st.session_state.analysis_done:
                 key="generated_application_answer"
             )
 
-    with tab7:
+    with tab8:
         st.subheader("Cover Letter Generator")
 
         detected_company = extract_company_name(st.session_state.job_text)

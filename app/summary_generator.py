@@ -1,4 +1,5 @@
 from app.llm_client import call_openai
+from app.resume_writing_guide import WRITING_GUIDE
 
 
 ROLE_POSITIONING = {
@@ -16,6 +17,7 @@ def generate_summary(
     parsed_job: dict,
     selected_achievements: list,
     resume_strategy: dict | None = None,
+    rewrite_plan: dict | None = None,
 ) -> str:
 
     role_type = parsed_job.get("role_type", "technical_pm")
@@ -70,6 +72,13 @@ def generate_summary(
         else ""
     )
 
+    rewrite_focus = ""
+
+    if rewrite_plan:
+        rewrite_focus = "\n".join(
+            rewrite_plan.get("focus", [])
+        )
+
     evidence = []
 
     for ach in selected_achievements[:8]:
@@ -101,6 +110,8 @@ def generate_summary(
     prompt = f"""
     You are an elite resume strategist specializing in Product Manager positioning.
 
+    Resume Writing Guide {WRITING_GUIDE}
+
     Write a concise, recruiter-quality professional summary for Ricardo Lugo.
 
     Your job:
@@ -126,6 +137,9 @@ def generate_summary(
 
     Summary direction:
     {summary_direction}
+
+    Rewrite Guidance:
+    {rewrite_focus}
 
     {strategy_text}
 

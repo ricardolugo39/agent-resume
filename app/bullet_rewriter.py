@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from app.llm_client import call_openai
+from app.resume_writing_guide import WRITING_GUIDE
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -16,10 +17,28 @@ def load_prompt_template() -> str:
 def rewrite_bullet(
     achievement: dict,
     parsed_job: dict,
-    resume_strategy: dict | None = None
+    resume_strategy: dict | None = None,
+    rewrite_plan: dict | None = None,
 ) -> str:
 
     template = load_prompt_template()
+
+    template = f"""
+    Resume Writing Guide
+
+    {WRITING_GUIDE}
+
+    {template}
+    """
+
+    rewrite_focus = ""
+
+    if rewrite_plan:
+        rewrite_focus = "\n".join(
+            rewrite_plan.get("focus", [])
+        )
+
+   
 
     if resume_strategy is None:
         resume_strategy = {}
@@ -44,7 +63,8 @@ def rewrite_bullet(
             "bullet_strategy": resume_strategy.get("bullet_strategy"),
             "tone": resume_strategy.get("tone"),
         }, indent=2),
-        achievement=json.dumps(achievement, indent=2)
+        achievement=json.dumps(achievement, indent=2),
+        rewrite_guidance=rewrite_focus
     )
 
     bullet = call_openai(prompt)

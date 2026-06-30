@@ -4,8 +4,8 @@ from app.summary_generator import generate_summary
 from app.resume_strategy import build_resume_strategy
 from app.resume_strategy_agent import build_resume_strategy_from_jd
 from app.achievement_selector import select_achievements_with_strategy
-from app.summary_generator import generate_summary
 from app.company_section_generator import generate_company_section
+from app.candidate_fit_agent import evaluate_candidate_fit
 
 
 def achievement_to_bullet(
@@ -36,8 +36,10 @@ def achievement_to_bullet(
 def generate_resume_outline(
     job_text: str,
     top_n: int = 10,
+    candidate_fit: dict | None = None,
     resume_strategy: dict | None = None,
-    match_results: dict | None = None
+    match_results: dict | None = None,
+    rewrite_plan: dict | None = None,
 ) -> dict:
 
     if match_results is None:
@@ -54,10 +56,16 @@ def generate_resume_outline(
 
     achievements_for_strategy = achievements[:50]
 
+    if candidate_fit is None:
+        candidate_fit = evaluate_candidate_fit(
+            job_text=job_text
+        )
+
     if resume_strategy is None:
         try:
             resume_strategy = build_resume_strategy_from_jd(
                 job_description=job_text,
+                candidate_fit=candidate_fit,
                 selected_achievements=achievements_for_strategy
             )
         except Exception as e:
@@ -136,6 +144,7 @@ def generate_resume_outline(
     return {
         "summary": summary,
         "parsed_job": parsed_job,
+        "candidate_fit": candidate_fit,
         "resume_strategy": resume_strategy,
         "bullets_by_company": bullets_by_company,
         "selected_achievements": selected_achievements
